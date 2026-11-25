@@ -1,0 +1,14 @@
+# Procesamiento y almacenamiento columnar (.parquet requerido en Streamlit Cloud)
+pandas>=2.2.0
+numpy>=1.26.0
+pyarrow>=15.0.0
+openpyxl>=3.1.0
+
+# Machine Learning y persistencia
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+joblib>=1.4.0
+
+# Visualización y Dashboard Web Interactivo
+plotly>=6.0.0
+streamlit>=1.45.0

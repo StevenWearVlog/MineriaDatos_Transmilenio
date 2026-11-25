@@ -1,0 +1,21 @@
+Escenario,KPI_ID,Nombre_KPI,Fuente_Dato,Unidad,Valor,Detalle
+Linea_Base_Historica_2026,KPI_1,Demanda Diaria Validada - Promedio Global (Troncal),Observado_Datos_Abiertos,validaciones/dia,1318542.0,"Habil=1,614,991 | Sabado=1,041,270 | Dom_Festivo=476,802 | Total_30d=39,556,257"
+Linea_Base_Historica_2026,KPI_2,Índice de Cumplimiento de Programación (ICP),Parametrico_Oficial_Sensibilizado,%,96.4,Línea base oficial Troncal 96.4% sensibilizada por despacho/obras
+Linea_Base_Historica_2026,KPI_3,Tiempo Medio de Espera en Troncal (Ponderado),Parametrico_Oficial_Sensibilizado,minutos,4.95,Hora_Pico=3.50 min | Hora_Valle=7.20 min (peso Pico=60.8%)
+Linea_Base_Historica_2026,KPI_4,Tasa de Evasión Focalizada (Troncal),Parametrico_Oficial_Sensibilizado,%,15.32,Línea base reciente 15.32% vs. pico histórico crítico 28.51%
+Linea_Base_Historica_2026,KPI_5,Kilómetros Comerciales Recorridos (Troncal),Parametrico_Oficial_Sensibilizado,millones_km/mes,11.3,"11,300,000 km/mes ajustados proporcionalmente al ICP"
+Escenario_Pesimista_Nov2026,KPI_1,Demanda Diaria Validada - Promedio Global (Troncal),Observado_Datos_Abiertos_Proyectado_ML,validaciones/dia,1266415.0,"Habil=1,593,111 | Sabado=1,059,330 | Dom_Festivo=498,005 | Total_30d=37,992,460"
+Escenario_Pesimista_Nov2026,KPI_2,Índice de Cumplimiento de Programación (ICP),Parametrico_Oficial_Sensibilizado,%,93.5,Línea base oficial Troncal 96.4% sensibilizada por despacho/obras
+Escenario_Pesimista_Nov2026,KPI_3,Tiempo Medio de Espera en Troncal (Ponderado),Parametrico_Oficial_Sensibilizado,minutos,5.73,Hora_Pico=4.19 min | Hora_Valle=8.11 min (peso Pico=60.8%)
+Escenario_Pesimista_Nov2026,KPI_4,Tasa de Evasión Focalizada (Troncal),Parametrico_Oficial_Sensibilizado,%,19.0,Línea base reciente 15.32% vs. pico histórico crítico 28.51%
+Escenario_Pesimista_Nov2026,KPI_5,Kilómetros Comerciales Recorridos (Troncal),Parametrico_Oficial_Sensibilizado,millones_km/mes,10.96,"10,960,000 km/mes ajustados proporcionalmente al ICP"
+Escenario_Base_Nov2026,KPI_1,Demanda Diaria Validada - Promedio Global (Troncal),Observado_Datos_Abiertos_Proyectado_ML,validaciones/dia,1402299.0,"Habil=1,758,060 | Sabado=1,177,124 | Dom_Festivo=565,332 | Total_30d=42,068,964"
+Escenario_Base_Nov2026,KPI_2,Índice de Cumplimiento de Programación (ICP),Parametrico_Oficial_Sensibilizado,%,96.4,Línea base oficial Troncal 96.4% sensibilizada por despacho/obras
+Escenario_Base_Nov2026,KPI_3,Tiempo Medio de Espera en Troncal (Ponderado),Parametrico_Oficial_Sensibilizado,minutos,4.96,Hora_Pico=3.52 min | Hora_Valle=7.20 min (peso Pico=60.8%)
+Escenario_Base_Nov2026,KPI_4,Tasa de Evasión Focalizada (Troncal),Parametrico_Oficial_Sensibilizado,%,15.32,Línea base reciente 15.32% vs. pico histórico crítico 28.51%
+Escenario_Base_Nov2026,KPI_5,Kilómetros Comerciales Recorridos (Troncal),Parametrico_Oficial_Sensibilizado,millones_km/mes,11.3,"11,300,000 km/mes ajustados proporcionalmente al ICP"
+Escenario_Optimista_Nov2026,KPI_1,Demanda Diaria Validada - Promedio Global (Troncal),Observado_Datos_Abiertos_Proyectado_ML,validaciones/dia,1490009.0,"Habil=1,865,916 | Sabado=1,253,435 | Dom_Festivo=604,877 | Total_30d=44,700,272"
+Escenario_Optimista_Nov2026,KPI_2,Índice de Cumplimiento de Programación (ICP),Parametrico_Oficial_Sensibilizado,%,97.8,Línea base oficial Troncal 96.4% sensibilizada por despacho/obras
+Escenario_Optimista_Nov2026,KPI_3,Tiempo Medio de Espera en Troncal (Ponderado),Parametrico_Oficial_Sensibilizado,minutos,4.63,Hora_Pico=3.26 min | Hora_Valle=6.76 min (peso Pico=60.8%)
+Escenario_Optimista_Nov2026,KPI_4,Tasa de Evasión Focalizada (Troncal),Parametrico_Oficial_Sensibilizado,%,12.5,Línea base reciente 15.32% vs. pico histórico crítico 28.51%
+Escenario_Optimista_Nov2026,KPI_5,Kilómetros Comerciales Recorridos (Troncal),Parametrico_Oficial_Sensibilizado,millones_km/mes,11.464,"11,464,000 km/mes ajustados proporcionalmente al ICP"

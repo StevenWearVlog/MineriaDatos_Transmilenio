@@ -1,0 +1,33 @@
+# Entorno virtual, caché de Python y sistema operativo
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.DS_Store
+Thumbs.db
+
+# Carpeta previa de trabajo local
+Proyecto_Mineria_Datos_Transmilenio/
+
+# Fase 1: Data Lake crudo (archivos pesados locales .xlsx / .csv / .geojson)
+data/raw/*
+!data/raw/.gitkeep
+
+# Fase 2: Excluir CSV pesados y conservar artefactos livianos para Streamlit Cloud
+data/processed/*
+!data/processed/.gitkeep
+!data/processed/vista_minable.parquet
+!data/processed/reporte_etl.json
+!data/processed/perfil_estaciones.csv
+!data/processed/perfil_estaciones_escalado.csv
+
+# Modelos serializados binarios locales (la app web consume data/output/ precalculado)
+models/*.joblib
+!models/.gitkeep
+
+# Garantizar inclusión explícita de código fuente, configuración y salidas livianas
+!src/
+!dashboard/
+!data/output/
+!.streamlit/

@@ -1,0 +1,532 @@
+{
+  "proyecto": "Minería de Datos - TransMilenio S.A. (2026)",
+  "fase": "Fase 2 - ETL, Imputación, Feature Engineering y Escalamiento",
+  "tiempo_ejecucion_segundos": 107.45,
+  "archivos_procesados": {
+    "maestro_estaciones": "Estaciones_Troncales_de_TRANSMILENIO.csv",
+    "archivos_validaciones_xlsx": 10,
+    "rango_fechas_vista_minable": {
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2026-10-31",
+      "dias_unicos": 304,
+      "festivos_colombia_2026_en_rango": [
+        "2026-01-01",
+        "2026-01-12",
+        "2026-03-23",
+        "2026-04-02",
+        "2026-04-03",
+        "2026-05-01",
+        "2026-05-18",
+        "2026-06-08",
+        "2026-06-15",
+        "2026-06-29",
+        "2026-07-20",
+        "2026-08-07",
+        "2026-08-17",
+        "2026-10-12"
+      ]
+    }
+  },
+  "limpieza_ingesta_xlsx_10_meses": {
+    "filas_crudas_totales_bajo_header": 785250,
+    "filas_vacias_plantilla_eliminadas": 220499,
+    "filas_resumen_total_general_eliminadas": 10,
+    "filas_operativas_evaluadas": 564741,
+    "fechas_desbordadas_eliminadas_por_mes": {
+      "2026-02": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03"
+      ],
+      "2026-04": [
+        "2026-05-01"
+      ],
+      "2026-06": [
+        "2026-07-01"
+      ],
+      "2026-09": [
+        "2026-10-01"
+      ]
+    },
+    "total_columnas_fecha_desbordadas_eliminadas": 6
+  },
+  "filtro_alcance_y_homologacion": {
+    "codigos_homologados_aplicados": {
+      "15001": 5011,
+      "15002": 5010,
+      "15003": 5009,
+      "57503": 7503,
+      "4004": 4100,
+      "50003": 9001
+    },
+    "validaciones_recuperadas_por_homologacion": 5720812,
+    "validaciones_dual_en_estacion_troncal_incluidas": 109606390,
+    "exclusiones_por_alcance": {
+      "transmicable": {
+        "filas_15min_mensuales": 5776,
+        "validaciones_excluidas": 7428114
+      },
+      "dual_en_calle_fuera_de_troncal": {
+        "filas_15min_mensuales": 199811,
+        "validaciones_excluidas": 43272179
+      },
+      "otros_no_mapeados": {
+        "(50002) Corral Calle 40 Sur": 1.0,
+        "(50006) Corral Carrera 77": 4.0,
+        "(50004) Corral Avenida Ciudad de Cali": 2.0
+      },
+      "total_validaciones_excluidas_alcance": 50700300
+    }
+  },
+  "filtro_horario_operativo": {
+    "horario_conservado": "04:00 - 23:59 (Hora_Bloque 4 a 23)",
+    "madrugada_00_03_filtrada": {
+      "filas_15min_mensuales_filtradas": 8205,
+      "validaciones_residuales_filtradas": 5832488
+    },
+    "filas_15min_mensuales_en_alcance_comercial": 350943
+  },
+  "maestro_estaciones_e_imputacion": {
+    "dimensiones_crudas": {
+      "filas": 152,
+      "columnas": 29
+    },
+    "dimensiones_limpias": {
+      "filas": 152,
+      "columnas": 19
+    },
+    "columnas_descartadas": [
+      "esta_oper",
+      "observ",
+      "created_user",
+      "created_date",
+      "last_edited_user",
+      "last_edited_date",
+      "objectid",
+      "globalid",
+      "X",
+      "Y",
+      "num_est"
+    ],
+    "homonimos_desambiguados": 2,
+    "imputacion_ceros_estructurales": {
+      "ancho_est": {
+        "ceros_estructurales_detectados": 17,
+        "imputados_por_mediana_tipo_esta": 8,
+        "imputados_por_mediana_global_portales": 9,
+        "mediana_global_referencia": 4.0,
+        "nulos_restantes": 0
+      },
+      "area_est": {
+        "ceros_estructurales_detectados": 17,
+        "imputados_por_mediana_tipo_esta": 8,
+        "imputados_por_mediana_global_portales": 9,
+        "mediana_global_referencia": 488.0,
+        "nulos_restantes": 0
+      },
+      "cap_biart": {
+        "ceros_estructurales_detectados": 5,
+        "imputados_por_mediana_tipo_esta": 5,
+        "imputados_por_mediana_global_portales": 0,
+        "mediana_global_referencia": 120.0,
+        "nulos_restantes": 0
+      },
+      "cap_art": {
+        "ceros_estructurales_detectados": 3,
+        "imputados_por_mediana_tipo_esta": 3,
+        "imputados_por_mediana_global_portales": 0,
+        "mediana_global_referencia": 144.0,
+        "nulos_restantes": 0
+      },
+      "num_vag": {
+        "ceros_estructurales_detectados": 1,
+        "imputados_por_mediana_tipo_esta": 1,
+        "imputados_por_mediana_global_portales": 0,
+        "mediana_global_referencia": 2.0,
+        "nulos_restantes": 0
+      }
+    },
+    "nulos_totales_maestro_limpio": 0
+  },
+  "cruce_y_calidad_final": {
+    "llave_join": "ID_Estacion (cod_nodo int64)",
+    "pct_match_cod_nodo_en_alcance": 100.0,
+    "estaciones_troncales_activas_en_2026": 142,
+    "estaciones_maestro_totales": 152,
+    "total_validaciones_limpias_vista_minable": 400836739,
+    "confirmacion_cero_nulos": {
+      "nulos_vista_minable": 0,
+      "nulos_vista_diaria_estacion": 0,
+      "nulos_perfil_estaciones_escalado": 0,
+      "cumple_cero_nulos": true
+    }
+  },
+  "salidas_generadas": {
+    "vista_minable_parquet": {
+      "ruta": "data/processed/vista_minable.parquet",
+      "filas": 787951,
+      "columnas": 26,
+      "size_mb": 2.02
+    },
+    "vista_minable_csv": {
+      "ruta": "data/processed/vista_minable.csv",
+      "filas": 787951,
+      "columnas": 26,
+      "size_mb": 112.26
+    },
+    "vista_diaria_estacion_csv": {
+      "ruta": "data/processed/vista_diaria_estacion.csv",
+      "filas": 41648,
+      "columnas": 28,
+      "size_mb": 6.34
+    },
+    "perfil_estaciones_escalado_csv": {
+      "ruta": "data/processed/perfil_estaciones_escalado.csv",
+      "filas": 142,
+      "columnas": 22,
+      "variables_escaladas": [
+        "prom_diario_habil",
+        "prom_diario_sabado",
+        "prom_diario_dom_fest",
+        "max_validaciones_hora",
+        "pct_pico_am",
+        "pct_pico_pm",
+        "pct_valle",
+        "ratio_dom_fest_vs_habil",
+        "longitud",
+        "latitud",
+        "long_est",
+        "ancho_est",
+        "area_est",
+        "num_acc",
+        "num_vag",
+        "cap_art",
+        "cap_biart"
+      ],
+      "scaler_guardado_en": "models/scaler.joblib"
+    }
+  },
+  "detalle_mensual": [
+    {
+      "archivo": "01 TM Resumen de Validaciones Troncales al 31 de Enero del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-01",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 26938,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 51586,
+      "filas_excluidas_transmicable": 310,
+      "validaciones_excluidas_transmicable": 573664,
+      "filas_excluidas_dual_calle": 15820,
+      "validaciones_excluidas_dual_calle": 3147892,
+      "codigos_no_mapeados_residuales": {},
+      "filas_homologadas_6_codigos": 634,
+      "validaciones_recuperadas_homologacion": 420951,
+      "filas_dual_en_estacion_troncal_incluidas": 6611,
+      "validaciones_dual_en_estacion_troncal_incluidas": 9361608,
+      "filas_madrugada_00_03_filtradas": 212,
+      "validaciones_madrugada_00_03_filtradas": 28452,
+      "filas_15min_troncal_horario_comercial": 35244,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 84909,
+      "validaciones_limpias_mes": 35201087
+    },
+    {
+      "archivo": "02 TM Resumen de Validaciones Troncales al 28 de Febrero del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-02",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 28,
+      "fechas_desbordadas_eliminadas": [
+        "2026-03-01",
+        "2026-03-02",
+        "2026-03-03"
+      ],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 24799,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 53725,
+      "filas_excluidas_transmicable": 612,
+      "validaciones_excluidas_transmicable": 743869,
+      "filas_excluidas_dual_calle": 17726,
+      "validaciones_excluidas_dual_calle": 3820951,
+      "codigos_no_mapeados_residuales": {
+        "(50002) Corral Calle 40 Sur": 1.0,
+        "(50006) Corral Carrera 77": 1.0
+      },
+      "filas_homologadas_6_codigos": 628,
+      "validaciones_recuperadas_homologacion": 484172,
+      "filas_dual_en_estacion_troncal_incluidas": 6462,
+      "validaciones_dual_en_estacion_troncal_incluidas": 10919525,
+      "filas_madrugada_00_03_filtradas": 204,
+      "validaciones_madrugada_00_03_filtradas": 34633,
+      "filas_15min_troncal_horario_comercial": 35181,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 76692,
+      "validaciones_limpias_mes": 40471111
+    },
+    {
+      "archivo": "03 TM Resumen de Validaciones Troncales al 31 de Marzo del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-03",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 24646,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 53878,
+      "filas_excluidas_transmicable": 615,
+      "validaciones_excluidas_transmicable": 809413,
+      "filas_excluidas_dual_calle": 17961,
+      "validaciones_excluidas_dual_calle": 4093425,
+      "codigos_no_mapeados_residuales": {},
+      "filas_homologadas_6_codigos": 651,
+      "validaciones_recuperadas_homologacion": 495312,
+      "filas_dual_en_estacion_troncal_incluidas": 6506,
+      "validaciones_dual_en_estacion_troncal_incluidas": 11205927,
+      "filas_madrugada_00_03_filtradas": 203,
+      "validaciones_madrugada_00_03_filtradas": 35233,
+      "filas_15min_troncal_horario_comercial": 35099,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 84878,
+      "validaciones_limpias_mes": 41331464
+    },
+    {
+      "archivo": "04 TM Resumen de Validaciones Troncales al 30 de Abril del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-04",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 30,
+      "fechas_desbordadas_eliminadas": [
+        "2026-05-01"
+      ],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 16584,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 61940,
+      "filas_excluidas_transmicable": 608,
+      "validaciones_excluidas_transmicable": 741136,
+      "filas_excluidas_dual_calle": 26018,
+      "validaciones_excluidas_dual_calle": 4088767,
+      "codigos_no_mapeados_residuales": {
+        "(50006) Corral Carrera 77": 2.0
+      },
+      "filas_homologadas_6_codigos": 656,
+      "validaciones_recuperadas_homologacion": 444910,
+      "filas_dual_en_estacion_troncal_incluidas": 6527,
+      "validaciones_dual_en_estacion_troncal_incluidas": 9817243,
+      "filas_madrugada_00_03_filtradas": 211,
+      "validaciones_madrugada_00_03_filtradas": 31595,
+      "filas_15min_troncal_horario_comercial": 35102,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 82140,
+      "validaciones_limpias_mes": 37790729
+    },
+    {
+      "archivo": "05 TM Resumen de Validaciones Troncales al 31 de Mayo del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-05",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 23399,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 55125,
+      "filas_excluidas_transmicable": 609,
+      "validaciones_excluidas_transmicable": 761935,
+      "filas_excluidas_dual_calle": 19071,
+      "validaciones_excluidas_dual_calle": 4893891,
+      "codigos_no_mapeados_residuales": {
+        "(50004) Corral Avenida Ciudad de Cali": 1.0
+      },
+      "filas_homologadas_6_codigos": 651,
+      "validaciones_recuperadas_homologacion": 503018,
+      "filas_dual_en_estacion_troncal_incluidas": 6521,
+      "validaciones_dual_en_estacion_troncal_incluidas": 10415737,
+      "filas_madrugada_00_03_filtradas": 217,
+      "validaciones_madrugada_00_03_filtradas": 36909,
+      "filas_15min_troncal_horario_comercial": 35227,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 83700,
+      "validaciones_limpias_mes": 41014863
+    },
+    {
+      "archivo": "06 TM Resumen de Validaciones Troncales al 30 de Junio del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-06",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 30,
+      "fechas_desbordadas_eliminadas": [
+        "2026-07-01"
+      ],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 23959,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 54565,
+      "filas_excluidas_transmicable": 594,
+      "validaciones_excluidas_transmicable": 723407,
+      "filas_excluidas_dual_calle": 18644,
+      "validaciones_excluidas_dual_calle": 4368016,
+      "codigos_no_mapeados_residuales": {},
+      "filas_homologadas_6_codigos": 645,
+      "validaciones_recuperadas_homologacion": 507417,
+      "filas_dual_en_estacion_troncal_incluidas": 6566,
+      "validaciones_dual_en_estacion_troncal_incluidas": 9543840,
+      "filas_madrugada_00_03_filtradas": 6161,
+      "validaciones_madrugada_00_03_filtradas": 5502543,
+      "filas_15min_troncal_horario_comercial": 29166,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 36450,
+      "validaciones_limpias_mes": 32309401
+    },
+    {
+      "archivo": "07 TM Resumen de Validaciones Troncales al 31 de Julio del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-07",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 22473,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 56051,
+      "filas_excluidas_transmicable": 609,
+      "validaciones_excluidas_transmicable": 705609,
+      "filas_excluidas_dual_calle": 19748,
+      "validaciones_excluidas_dual_calle": 4447751,
+      "codigos_no_mapeados_residuales": {},
+      "filas_homologadas_6_codigos": 652,
+      "validaciones_recuperadas_homologacion": 539579,
+      "filas_dual_en_estacion_troncal_incluidas": 6858,
+      "validaciones_dual_en_estacion_troncal_incluidas": 10680400,
+      "filas_madrugada_00_03_filtradas": 214,
+      "validaciones_madrugada_00_03_filtradas": 38472,
+      "filas_15min_troncal_horario_comercial": 35480,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 83669,
+      "validaciones_limpias_mes": 41019720
+    },
+    {
+      "archivo": "08 TM Resumen de Validaciones Troncales al 31 de Agosto del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-08",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 20376,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 58148,
+      "filas_excluidas_transmicable": 603,
+      "validaciones_excluidas_transmicable": 756130,
+      "filas_excluidas_dual_calle": 20806,
+      "validaciones_excluidas_dual_calle": 4675152,
+      "codigos_no_mapeados_residuales": {
+        "(50006) Corral Carrera 77": 1.0
+      },
+      "filas_homologadas_6_codigos": 1471,
+      "validaciones_recuperadas_homologacion": 631852,
+      "filas_dual_en_estacion_troncal_incluidas": 7187,
+      "validaciones_dual_en_estacion_troncal_incluidas": 11455595,
+      "filas_madrugada_00_03_filtradas": 231,
+      "validaciones_madrugada_00_03_filtradas": 37655,
+      "filas_15min_troncal_horario_comercial": 36507,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 86056,
+      "validaciones_limpias_mes": 41678460
+    },
+    {
+      "archivo": "09 TM Resumen de Validaciones Troncales al 30 de Septiembre del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-09",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 30,
+      "fechas_desbordadas_eliminadas": [
+        "2026-10-01"
+      ],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 15269,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 63255,
+      "filas_excluidas_transmicable": 608,
+      "validaciones_excluidas_transmicable": 801574,
+      "filas_excluidas_dual_calle": 25797,
+      "validaciones_excluidas_dual_calle": 4927692,
+      "codigos_no_mapeados_residuales": {
+        "(50004) Corral Avenida Ciudad de Cali": 1.0
+      },
+      "filas_homologadas_6_codigos": 1520,
+      "validaciones_recuperadas_homologacion": 829317,
+      "filas_dual_en_estacion_troncal_incluidas": 7241,
+      "validaciones_dual_en_estacion_troncal_incluidas": 13126813,
+      "filas_madrugada_00_03_filtradas": 234,
+      "validaciones_madrugada_00_03_filtradas": 39782,
+      "filas_15min_troncal_horario_comercial": 36615,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 83370,
+      "validaciones_limpias_mes": 45135276
+    },
+    {
+      "archivo": "10 TM Resumen de Validaciones Troncales al 31 de Octubre del 2026 Intervalo 15 Mint.xlsx",
+      "mes_objetivo": "2026-10",
+      "hojas_ignoradas": [
+        "Validacion Datos"
+      ],
+      "columna_A_vacia_ignorada": true,
+      "columna_total_general_ignorada": true,
+      "dias_validos_conservados": 31,
+      "fechas_desbordadas_eliminadas": [],
+      "filas_crudas_bajo_header": 78525,
+      "filas_plantilla_vacias_eliminadas": 22056,
+      "filas_total_general_eliminadas": 1,
+      "filas_operativas_totales": 56468,
+      "filas_excluidas_transmicable": 608,
+      "validaciones_excluidas_transmicable": 811377,
+      "filas_excluidas_dual_calle": 18220,
+      "validaciones_excluidas_dual_calle": 4808642,
+      "codigos_no_mapeados_residuales": {},
+      "filas_homologadas_6_codigos": 1517,
+      "validaciones_recuperadas_homologacion": 864284,
+      "filas_dual_en_estacion_troncal_incluidas": 7611,
+      "validaciones_dual_en_estacion_troncal_incluidas": 13079702,
+      "filas_madrugada_00_03_filtradas": 318,
+      "validaciones_madrugada_00_03_filtradas": 47214,
+      "filas_15min_troncal_horario_comercial": 37322,
+      "celdas_nulas_en_fechas_validas": 0,
+      "filas_hora_estacion_generadas": 86087,
+      "validaciones_limpias_mes": 44884628
+    }
+  ]
+}

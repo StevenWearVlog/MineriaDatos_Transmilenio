@@ -1,0 +1,541 @@
+Nivel,Fecha,Dia_Semana,Tipo_Dia,Troncal,Pred_Pesimista,Pred_Base,Pred_Optimista
+Sistema_Total,2026-11-01,6,Domingo_Festivo,Todas las Troncales,503956,571585,611919
+Sistema_Total,2026-11-02,0,Domingo_Festivo,Todas las Troncales,483264,549889,587479
+Sistema_Total,2026-11-03,1,Habil,Todas las Troncales,1602955,1768199,1876212
+Sistema_Total,2026-11-04,2,Habil,Todas las Troncales,1599009,1764149,1871969
+Sistema_Total,2026-11-05,3,Habil,Todas las Troncales,1601162,1766699,1874321
+Sistema_Total,2026-11-06,4,Habil,Todas las Troncales,1587410,1752669,1861620
+Sistema_Total,2026-11-07,5,Sabado,Todas las Troncales,1059330,1177124,1253435
+Sistema_Total,2026-11-08,6,Domingo_Festivo,Todas las Troncales,503865,571458,611781
+Sistema_Total,2026-11-09,0,Habil,Todas las Troncales,1568012,1730981,1837470
+Sistema_Total,2026-11-10,1,Habil,Todas las Troncales,1602955,1768199,1876212
+Sistema_Total,2026-11-11,2,Habil,Todas las Troncales,1599009,1764149,1871969
+Sistema_Total,2026-11-12,3,Habil,Todas las Troncales,1601162,1766699,1874321
+Sistema_Total,2026-11-13,4,Habil,Todas las Troncales,1587410,1752669,1861620
+Sistema_Total,2026-11-14,5,Sabado,Todas las Troncales,1059330,1177124,1253435
+Sistema_Total,2026-11-15,6,Domingo_Festivo,Todas las Troncales,503956,571585,611919
+Sistema_Total,2026-11-16,0,Domingo_Festivo,Todas las Troncales,483264,549889,587479
+Sistema_Total,2026-11-17,1,Habil,Todas las Troncales,1602955,1768199,1876212
+Sistema_Total,2026-11-18,2,Habil,Todas las Troncales,1599009,1764149,1871969
+Sistema_Total,2026-11-19,3,Habil,Todas las Troncales,1601162,1766699,1874321
+Sistema_Total,2026-11-20,4,Habil,Todas las Troncales,1587410,1752669,1861620
+Sistema_Total,2026-11-21,5,Sabado,Todas las Troncales,1059330,1177124,1253435
+Sistema_Total,2026-11-22,6,Domingo_Festivo,Todas las Troncales,503865,571458,611781
+Sistema_Total,2026-11-23,0,Habil,Todas las Troncales,1568012,1730981,1837470
+Sistema_Total,2026-11-24,1,Habil,Todas las Troncales,1602955,1768199,1876212
+Sistema_Total,2026-11-25,2,Habil,Todas las Troncales,1599009,1764149,1871969
+Sistema_Total,2026-11-26,3,Habil,Todas las Troncales,1601162,1766699,1874321
+Sistema_Total,2026-11-27,4,Habil,Todas las Troncales,1587410,1752669,1861620
+Sistema_Total,2026-11-28,5,Sabado,Todas las Troncales,1059330,1177124,1253435
+Sistema_Total,2026-11-29,6,Domingo_Festivo,Todas las Troncales,503865,571458,611781
+Sistema_Total,2026-11-30,0,Habil,Todas las Troncales,1570936,1734321,1840970
+Troncal,2026-11-01,6,Domingo_Festivo,A - Caracas,12789,14694,15892
+Troncal,2026-11-01,6,Domingo_Festivo,B - AutoNorte,72110,81295,86940
+Troncal,2026-11-01,6,Domingo_Festivo,C - Suba,40482,46159,49290
+Troncal,2026-11-01,6,Domingo_Festivo,D - Calle 80,40722,46229,49332
+Troncal,2026-11-01,6,Domingo_Festivo,E - NQS Central,28209,32655,35232
+Troncal,2026-11-01,6,Domingo_Festivo,E - NQS Central (Calle 6),3238,3805,4103
+Troncal,2026-11-01,6,Domingo_Festivo,F - Américas,58004,65703,70188
+Troncal,2026-11-01,6,Domingo_Festivo,F - Av. Ciudad de Cali,2900,3567,3860
+Troncal,2026-11-01,6,Domingo_Festivo,G - Extensión Soacha,32709,36291,38644
+Troncal,2026-11-01,6,Domingo_Festivo,G - NQS Sur,51784,58234,62154
+Troncal,2026-11-01,6,Domingo_Festivo,H - Caracas Sur,26336,30258,32485
+Troncal,2026-11-01,6,Domingo_Festivo,H - Caracas Sur (Usme),19377,21479,22872
+Troncal,2026-11-01,6,Domingo_Festivo,H - Ramal Tunal,18153,20229,21490
+Troncal,2026-11-01,6,Domingo_Festivo,J - Eje Ambiental,8447,9650,10469
+Troncal,2026-11-01,6,Domingo_Festivo,K - Calle 26,37834,43888,47298
+Troncal,2026-11-01,6,Domingo_Festivo,L - Carrera 10,47590,53692,57586
+Troncal,2026-11-01,6,Domingo_Festivo,M - Carrera 7,3271,3758,4084
+Troncal,2026-11-02,0,Domingo_Festivo,A - Caracas,12473,14366,15512
+Troncal,2026-11-02,0,Domingo_Festivo,B - AutoNorte,69198,78176,83423
+Troncal,2026-11-02,0,Domingo_Festivo,C - Suba,39088,44706,47624
+Troncal,2026-11-02,0,Domingo_Festivo,D - Calle 80,39186,44627,47494
+Troncal,2026-11-02,0,Domingo_Festivo,E - NQS Central,26201,30522,32832
+Troncal,2026-11-02,0,Domingo_Festivo,E - NQS Central (Calle 6),2929,3474,3734
+Troncal,2026-11-02,0,Domingo_Festivo,F - Américas,55635,63232,67415
+Troncal,2026-11-02,0,Domingo_Festivo,F - Av. Ciudad de Cali,2731,3388,3652
+Troncal,2026-11-02,0,Domingo_Festivo,G - Extensión Soacha,31955,35540,37806
+Troncal,2026-11-02,0,Domingo_Festivo,G - NQS Sur,49496,55825,59436
+Troncal,2026-11-02,0,Domingo_Festivo,H - Caracas Sur,24736,28554,30565
+Troncal,2026-11-02,0,Domingo_Festivo,H - Caracas Sur (Usme),18982,21096,22445
+Troncal,2026-11-02,0,Domingo_Festivo,H - Ramal Tunal,17923,20025,21241
+Troncal,2026-11-02,0,Domingo_Festivo,J - Eje Ambiental,7959,9131,9912
+Troncal,2026-11-02,0,Domingo_Festivo,K - Calle 26,35677,41630,44783
+Troncal,2026-11-02,0,Domingo_Festivo,L - Carrera 10,46035,52065,55768
+Troncal,2026-11-02,0,Domingo_Festivo,M - Carrera 7,3060,3533,3836
+Troncal,2026-11-03,1,Habil,A - Caracas,52079,57522,61457
+Troncal,2026-11-03,1,Habil,B - AutoNorte,302103,331765,351822
+Troncal,2026-11-03,1,Habil,C - Suba,127910,141282,149528
+Troncal,2026-11-03,1,Habil,D - Calle 80,118374,130771,138484
+Troncal,2026-11-03,1,Habil,E - NQS Central,102546,114094,121736
+Troncal,2026-11-03,1,Habil,E - NQS Central (Calle 6),10314,11564,12342
+Troncal,2026-11-03,1,Habil,F - Américas,191420,210797,223287
+Troncal,2026-11-03,1,Habil,F - Av. Ciudad de Cali,8378,9624,10370
+Troncal,2026-11-03,1,Habil,G - Extensión Soacha,91350,99752,105320
+Troncal,2026-11-03,1,Habil,G - NQS Sur,132274,145620,154147
+Troncal,2026-11-03,1,Habil,H - Caracas Sur,73043,81333,86687
+Troncal,2026-11-03,1,Habil,H - Caracas Sur (Usme),52509,57288,60399
+Troncal,2026-11-03,1,Habil,H - Ramal Tunal,41988,46045,48571
+Troncal,2026-11-03,1,Habil,J - Eje Ambiental,21028,23608,25353
+Troncal,2026-11-03,1,Habil,K - Calle 26,136514,151409,161237
+Troncal,2026-11-03,1,Habil,L - Carrera 10,123298,136030,144432
+Troncal,2026-11-03,1,Habil,M - Carrera 7,17827,19694,21040
+Troncal,2026-11-04,2,Habil,A - Caracas,51730,57154,61069
+Troncal,2026-11-04,2,Habil,B - AutoNorte,301208,330841,350852
+Troncal,2026-11-04,2,Habil,C - Suba,127637,140995,149232
+Troncal,2026-11-04,2,Habil,D - Calle 80,118121,130508,138206
+Troncal,2026-11-04,2,Habil,E - NQS Central,102550,114104,121748
+Troncal,2026-11-04,2,Habil,E - NQS Central (Calle 6),10316,11566,12344
+Troncal,2026-11-04,2,Habil,F - Américas,191030,210409,222884
+Troncal,2026-11-04,2,Habil,F - Av. Ciudad de Cali,8385,9631,10376
+Troncal,2026-11-04,2,Habil,G - Extensión Soacha,90945,99331,104883
+Troncal,2026-11-04,2,Habil,G - NQS Sur,132071,145406,153927
+Troncal,2026-11-04,2,Habil,H - Caracas Sur,73041,81330,86684
+Troncal,2026-11-04,2,Habil,H - Caracas Sur (Usme),52359,57137,60240
+Troncal,2026-11-04,2,Habil,H - Ramal Tunal,41812,45860,48376
+Troncal,2026-11-04,2,Habil,J - Eje Ambiental,20950,23542,25284
+Troncal,2026-11-04,2,Habil,K - Calle 26,136075,150966,160772
+Troncal,2026-11-04,2,Habil,L - Carrera 10,123019,135744,144127
+Troncal,2026-11-04,2,Habil,M - Carrera 7,17759,19625,20964
+Troncal,2026-11-05,3,Habil,A - Caracas,51805,57245,61135
+Troncal,2026-11-05,3,Habil,B - AutoNorte,301325,331014,350931
+Troncal,2026-11-05,3,Habil,C - Suba,127892,141287,149515
+Troncal,2026-11-05,3,Habil,D - Calle 80,118379,130796,138485
+Troncal,2026-11-05,3,Habil,E - NQS Central,102578,114145,121798
+Troncal,2026-11-05,3,Habil,E - NQS Central (Calle 6),10342,11594,12374
+Troncal,2026-11-05,3,Habil,F - Américas,191267,210692,223137
+Troncal,2026-11-05,3,Habil,F - Av. Ciudad de Cali,8411,9660,10408
+Troncal,2026-11-05,3,Habil,G - Extensión Soacha,91043,99454,104970
+Troncal,2026-11-05,3,Habil,G - NQS Sur,132260,145616,154123
+Troncal,2026-11-05,3,Habil,H - Caracas Sur,73211,81514,86893
+Troncal,2026-11-05,3,Habil,H - Caracas Sur (Usme),52323,57104,60173
+Troncal,2026-11-05,3,Habil,H - Ramal Tunal,41955,46016,48534
+Troncal,2026-11-05,3,Habil,J - Eje Ambiental,20934,23536,25281
+Troncal,2026-11-05,3,Habil,K - Calle 26,136436,151395,161213
+Troncal,2026-11-05,3,Habil,L - Carrera 10,123305,136068,144459
+Troncal,2026-11-05,3,Habil,M - Carrera 7,17697,19562,20891
+Troncal,2026-11-06,4,Habil,A - Caracas,50122,55488,59279
+Troncal,2026-11-06,4,Habil,B - AutoNorte,295366,324832,344643
+Troncal,2026-11-06,4,Habil,C - Suba,127375,140778,149221
+Troncal,2026-11-06,4,Habil,D - Calle 80,117890,130295,138213
+Troncal,2026-11-06,4,Habil,E - NQS Central,101985,113596,121387
+Troncal,2026-11-06,4,Habil,E - NQS Central (Calle 6),10361,11616,12431
+Troncal,2026-11-06,4,Habil,F - Américas,190065,209453,222074
+Troncal,2026-11-06,4,Habil,F - Av. Ciudad de Cali,8476,9728,10502
+Troncal,2026-11-06,4,Habil,G - Extensión Soacha,90070,98438,103944
+Troncal,2026-11-06,4,Habil,G - NQS Sur,132049,145407,154157
+Troncal,2026-11-06,4,Habil,H - Caracas Sur,73311,81631,87191
+Troncal,2026-11-06,4,Habil,H - Caracas Sur (Usme),51930,56687,59761
+Troncal,2026-11-06,4,Habil,H - Ramal Tunal,41850,45906,48460
+Troncal,2026-11-06,4,Habil,J - Eje Ambiental,20749,23361,25110
+Troncal,2026-11-06,4,Habil,K - Calle 26,135901,150903,160900
+Troncal,2026-11-06,4,Habil,L - Carrera 10,122659,135439,143931
+Troncal,2026-11-06,4,Habil,M - Carrera 7,17252,19111,20414
+Troncal,2026-11-07,5,Sabado,A - Caracas,30086,33556,35802
+Troncal,2026-11-07,5,Sabado,B - AutoNorte,165320,182996,194887
+Troncal,2026-11-07,5,Sabado,C - Suba,85247,94914,100897
+Troncal,2026-11-07,5,Sabado,D - Calle 80,82506,91994,97910
+Troncal,2026-11-07,5,Sabado,E - NQS Central,64542,72720,78079
+Troncal,2026-11-07,5,Sabado,E - NQS Central (Calle 6),7897,8919,9595
+Troncal,2026-11-07,5,Sabado,F - Américas,135452,150012,159460
+Troncal,2026-11-07,5,Sabado,F - Av. Ciudad de Cali,6712,7837,8524
+Troncal,2026-11-07,5,Sabado,G - Extensión Soacha,65742,72080,76338
+Troncal,2026-11-07,5,Sabado,G - NQS Sur,102285,113315,120528
+Troncal,2026-11-07,5,Sabado,H - Caracas Sur,53713,60276,64588
+Troncal,2026-11-07,5,Sabado,H - Caracas Sur (Usme),38667,42347,44774
+Troncal,2026-11-07,5,Sabado,H - Ramal Tunal,32425,35737,37824
+Troncal,2026-11-07,5,Sabado,J - Eje Ambiental,13485,15085,16136
+Troncal,2026-11-07,5,Sabado,K - Calle 26,74823,84089,89784
+Troncal,2026-11-07,5,Sabado,L - Carrera 10,93769,103784,110288
+Troncal,2026-11-07,5,Sabado,M - Carrera 7,6661,7461,8021
+Troncal,2026-11-08,6,Domingo_Festivo,A - Caracas,12765,14668,15865
+Troncal,2026-11-08,6,Domingo_Festivo,B - AutoNorte,72134,81308,86953
+Troncal,2026-11-08,6,Domingo_Festivo,C - Suba,40483,46159,49288
+Troncal,2026-11-08,6,Domingo_Festivo,D - Calle 80,40722,46229,49331
+Troncal,2026-11-08,6,Domingo_Festivo,E - NQS Central,28197,32643,35219
+Troncal,2026-11-08,6,Domingo_Festivo,E - NQS Central (Calle 6),3238,3805,4103
+Troncal,2026-11-08,6,Domingo_Festivo,F - Américas,58004,65703,70187
+Troncal,2026-11-08,6,Domingo_Festivo,F - Av. Ciudad de Cali,2900,3567,3860
+Troncal,2026-11-08,6,Domingo_Festivo,G - Extensión Soacha,32713,36291,38643
+Troncal,2026-11-08,6,Domingo_Festivo,G - NQS Sur,51784,58234,62154
+Troncal,2026-11-08,6,Domingo_Festivo,H - Caracas Sur,26336,30258,32485
+Troncal,2026-11-08,6,Domingo_Festivo,H - Caracas Sur (Usme),19377,21479,22872
+Troncal,2026-11-08,6,Domingo_Festivo,H - Ramal Tunal,18153,20229,21490
+Troncal,2026-11-08,6,Domingo_Festivo,J - Eje Ambiental,8447,9650,10469
+Troncal,2026-11-08,6,Domingo_Festivo,K - Calle 26,37740,43787,47193
+Troncal,2026-11-08,6,Domingo_Festivo,L - Carrera 10,47599,53692,57585
+Troncal,2026-11-08,6,Domingo_Festivo,M - Carrera 7,3271,3758,4084
+Troncal,2026-11-09,0,Habil,A - Caracas,51238,56656,60571
+Troncal,2026-11-09,0,Habil,B - AutoNorte,295108,324337,344103
+Troncal,2026-11-09,0,Habil,C - Suba,125262,138454,146578
+Troncal,2026-11-09,0,Habil,D - Calle 80,115785,127997,135593
+Troncal,2026-11-09,0,Habil,E - NQS Central,100062,111456,118986
+Troncal,2026-11-09,0,Habil,E - NQS Central (Calle 6),10050,11280,12051
+Troncal,2026-11-09,0,Habil,F - Américas,186845,205899,218200
+Troncal,2026-11-09,0,Habil,F - Av. Ciudad de Cali,8117,9344,10082
+Troncal,2026-11-09,0,Habil,G - Extensión Soacha,89588,97871,103371
+Troncal,2026-11-09,0,Habil,G - NQS Sur,129630,142787,151195
+Troncal,2026-11-09,0,Habil,H - Caracas Sur,71244,79405,84680
+Troncal,2026-11-09,0,Habil,H - Caracas Sur (Usme),51585,56298,59362
+Troncal,2026-11-09,0,Habil,H - Ramal Tunal,41372,45386,47882
+Troncal,2026-11-09,0,Habil,J - Eje Ambiental,20536,23091,24809
+Troncal,2026-11-09,0,Habil,K - Calle 26,133410,148115,157790
+Troncal,2026-11-09,0,Habil,L - Carrera 10,120889,133471,141760
+Troncal,2026-11-09,0,Habil,M - Carrera 7,17291,19135,20457
+Troncal,2026-11-10,1,Habil,A - Caracas,52079,57522,61457
+Troncal,2026-11-10,1,Habil,B - AutoNorte,302103,331765,351822
+Troncal,2026-11-10,1,Habil,C - Suba,127910,141282,149528
+Troncal,2026-11-10,1,Habil,D - Calle 80,118374,130771,138484
+Troncal,2026-11-10,1,Habil,E - NQS Central,102546,114094,121736
+Troncal,2026-11-10,1,Habil,E - NQS Central (Calle 6),10314,11564,12342
+Troncal,2026-11-10,1,Habil,F - Américas,191420,210797,223287
+Troncal,2026-11-10,1,Habil,F - Av. Ciudad de Cali,8378,9624,10370
+Troncal,2026-11-10,1,Habil,G - Extensión Soacha,91350,99752,105320
+Troncal,2026-11-10,1,Habil,G - NQS Sur,132274,145620,154147
+Troncal,2026-11-10,1,Habil,H - Caracas Sur,73043,81333,86687
+Troncal,2026-11-10,1,Habil,H - Caracas Sur (Usme),52509,57288,60399
+Troncal,2026-11-10,1,Habil,H - Ramal Tunal,41988,46045,48571
+Troncal,2026-11-10,1,Habil,J - Eje Ambiental,21028,23608,25353
+Troncal,2026-11-10,1,Habil,K - Calle 26,136514,151409,161237
+Troncal,2026-11-10,1,Habil,L - Carrera 10,123298,136030,144432
+Troncal,2026-11-10,1,Habil,M - Carrera 7,17827,19694,21040
+Troncal,2026-11-11,2,Habil,A - Caracas,51730,57154,61069
+Troncal,2026-11-11,2,Habil,B - AutoNorte,301208,330841,350852
+Troncal,2026-11-11,2,Habil,C - Suba,127637,140995,149232
+Troncal,2026-11-11,2,Habil,D - Calle 80,118121,130508,138206
+Troncal,2026-11-11,2,Habil,E - NQS Central,102550,114104,121748
+Troncal,2026-11-11,2,Habil,E - NQS Central (Calle 6),10316,11566,12344
+Troncal,2026-11-11,2,Habil,F - Américas,191030,210409,222884
+Troncal,2026-11-11,2,Habil,F - Av. Ciudad de Cali,8385,9631,10376
+Troncal,2026-11-11,2,Habil,G - Extensión Soacha,90945,99331,104883
+Troncal,2026-11-11,2,Habil,G - NQS Sur,132071,145406,153927
+Troncal,2026-11-11,2,Habil,H - Caracas Sur,73041,81330,86684
+Troncal,2026-11-11,2,Habil,H - Caracas Sur (Usme),52359,57137,60240
+Troncal,2026-11-11,2,Habil,H - Ramal Tunal,41812,45860,48376
+Troncal,2026-11-11,2,Habil,J - Eje Ambiental,20950,23542,25284
+Troncal,2026-11-11,2,Habil,K - Calle 26,136075,150966,160772
+Troncal,2026-11-11,2,Habil,L - Carrera 10,123019,135744,144127
+Troncal,2026-11-11,2,Habil,M - Carrera 7,17759,19625,20964
+Troncal,2026-11-12,3,Habil,A - Caracas,51805,57245,61135
+Troncal,2026-11-12,3,Habil,B - AutoNorte,301325,331014,350931
+Troncal,2026-11-12,3,Habil,C - Suba,127892,141287,149515
+Troncal,2026-11-12,3,Habil,D - Calle 80,118379,130796,138485
+Troncal,2026-11-12,3,Habil,E - NQS Central,102578,114145,121798
+Troncal,2026-11-12,3,Habil,E - NQS Central (Calle 6),10342,11594,12374
+Troncal,2026-11-12,3,Habil,F - Américas,191267,210692,223137
+Troncal,2026-11-12,3,Habil,F - Av. Ciudad de Cali,8411,9660,10408
+Troncal,2026-11-12,3,Habil,G - Extensión Soacha,91043,99454,104970
+Troncal,2026-11-12,3,Habil,G - NQS Sur,132260,145616,154123
+Troncal,2026-11-12,3,Habil,H - Caracas Sur,73211,81514,86893
+Troncal,2026-11-12,3,Habil,H - Caracas Sur (Usme),52323,57104,60173
+Troncal,2026-11-12,3,Habil,H - Ramal Tunal,41955,46016,48534
+Troncal,2026-11-12,3,Habil,J - Eje Ambiental,20934,23536,25281
+Troncal,2026-11-12,3,Habil,K - Calle 26,136436,151395,161213
+Troncal,2026-11-12,3,Habil,L - Carrera 10,123305,136068,144459
+Troncal,2026-11-12,3,Habil,M - Carrera 7,17697,19562,20891
+Troncal,2026-11-13,4,Habil,A - Caracas,50122,55488,59279
+Troncal,2026-11-13,4,Habil,B - AutoNorte,295366,324832,344643
+Troncal,2026-11-13,4,Habil,C - Suba,127375,140778,149221
+Troncal,2026-11-13,4,Habil,D - Calle 80,117890,130295,138213
+Troncal,2026-11-13,4,Habil,E - NQS Central,101985,113596,121387
+Troncal,2026-11-13,4,Habil,E - NQS Central (Calle 6),10361,11616,12431
+Troncal,2026-11-13,4,Habil,F - Américas,190065,209453,222074
+Troncal,2026-11-13,4,Habil,F - Av. Ciudad de Cali,8476,9728,10502
+Troncal,2026-11-13,4,Habil,G - Extensión Soacha,90070,98438,103944
+Troncal,2026-11-13,4,Habil,G - NQS Sur,132049,145407,154157
+Troncal,2026-11-13,4,Habil,H - Caracas Sur,73311,81631,87191
+Troncal,2026-11-13,4,Habil,H - Caracas Sur (Usme),51930,56687,59761
+Troncal,2026-11-13,4,Habil,H - Ramal Tunal,41850,45906,48460
+Troncal,2026-11-13,4,Habil,J - Eje Ambiental,20749,23361,25110
+Troncal,2026-11-13,4,Habil,K - Calle 26,135901,150903,160900
+Troncal,2026-11-13,4,Habil,L - Carrera 10,122659,135439,143931
+Troncal,2026-11-13,4,Habil,M - Carrera 7,17252,19111,20414
+Troncal,2026-11-14,5,Sabado,A - Caracas,30086,33556,35802
+Troncal,2026-11-14,5,Sabado,B - AutoNorte,165320,182996,194887
+Troncal,2026-11-14,5,Sabado,C - Suba,85247,94914,100897
+Troncal,2026-11-14,5,Sabado,D - Calle 80,82506,91994,97910
+Troncal,2026-11-14,5,Sabado,E - NQS Central,64542,72720,78079
+Troncal,2026-11-14,5,Sabado,E - NQS Central (Calle 6),7897,8919,9595
+Troncal,2026-11-14,5,Sabado,F - Américas,135452,150012,159460
+Troncal,2026-11-14,5,Sabado,F - Av. Ciudad de Cali,6712,7837,8524
+Troncal,2026-11-14,5,Sabado,G - Extensión Soacha,65742,72080,76338
+Troncal,2026-11-14,5,Sabado,G - NQS Sur,102285,113315,120528
+Troncal,2026-11-14,5,Sabado,H - Caracas Sur,53713,60276,64588
+Troncal,2026-11-14,5,Sabado,H - Caracas Sur (Usme),38667,42347,44774
+Troncal,2026-11-14,5,Sabado,H - Ramal Tunal,32425,35737,37824
+Troncal,2026-11-14,5,Sabado,J - Eje Ambiental,13485,15085,16136
+Troncal,2026-11-14,5,Sabado,K - Calle 26,74823,84089,89784
+Troncal,2026-11-14,5,Sabado,L - Carrera 10,93769,103784,110288
+Troncal,2026-11-14,5,Sabado,M - Carrera 7,6661,7461,8021
+Troncal,2026-11-15,6,Domingo_Festivo,A - Caracas,12789,14694,15892
+Troncal,2026-11-15,6,Domingo_Festivo,B - AutoNorte,72110,81295,86940
+Troncal,2026-11-15,6,Domingo_Festivo,C - Suba,40482,46159,49290
+Troncal,2026-11-15,6,Domingo_Festivo,D - Calle 80,40722,46229,49332
+Troncal,2026-11-15,6,Domingo_Festivo,E - NQS Central,28209,32655,35232
+Troncal,2026-11-15,6,Domingo_Festivo,E - NQS Central (Calle 6),3238,3805,4103
+Troncal,2026-11-15,6,Domingo_Festivo,F - Américas,58004,65703,70188
+Troncal,2026-11-15,6,Domingo_Festivo,F - Av. Ciudad de Cali,2900,3567,3860
+Troncal,2026-11-15,6,Domingo_Festivo,G - Extensión Soacha,32709,36291,38644
+Troncal,2026-11-15,6,Domingo_Festivo,G - NQS Sur,51784,58234,62154
+Troncal,2026-11-15,6,Domingo_Festivo,H - Caracas Sur,26336,30258,32485
+Troncal,2026-11-15,6,Domingo_Festivo,H - Caracas Sur (Usme),19377,21479,22872
+Troncal,2026-11-15,6,Domingo_Festivo,H - Ramal Tunal,18153,20229,21490
+Troncal,2026-11-15,6,Domingo_Festivo,J - Eje Ambiental,8447,9650,10469
+Troncal,2026-11-15,6,Domingo_Festivo,K - Calle 26,37834,43888,47298
+Troncal,2026-11-15,6,Domingo_Festivo,L - Carrera 10,47590,53692,57586
+Troncal,2026-11-15,6,Domingo_Festivo,M - Carrera 7,3271,3758,4084
+Troncal,2026-11-16,0,Domingo_Festivo,A - Caracas,12473,14366,15512
+Troncal,2026-11-16,0,Domingo_Festivo,B - AutoNorte,69198,78176,83423
+Troncal,2026-11-16,0,Domingo_Festivo,C - Suba,39088,44706,47624
+Troncal,2026-11-16,0,Domingo_Festivo,D - Calle 80,39186,44627,47494
+Troncal,2026-11-16,0,Domingo_Festivo,E - NQS Central,26201,30522,32832
+Troncal,2026-11-16,0,Domingo_Festivo,E - NQS Central (Calle 6),2929,3474,3734
+Troncal,2026-11-16,0,Domingo_Festivo,F - Américas,55635,63232,67415
+Troncal,2026-11-16,0,Domingo_Festivo,F - Av. Ciudad de Cali,2731,3388,3652
+Troncal,2026-11-16,0,Domingo_Festivo,G - Extensión Soacha,31955,35540,37806
+Troncal,2026-11-16,0,Domingo_Festivo,G - NQS Sur,49496,55825,59436
+Troncal,2026-11-16,0,Domingo_Festivo,H - Caracas Sur,24736,28554,30565
+Troncal,2026-11-16,0,Domingo_Festivo,H - Caracas Sur (Usme),18982,21096,22445
+Troncal,2026-11-16,0,Domingo_Festivo,H - Ramal Tunal,17923,20025,21241
+Troncal,2026-11-16,0,Domingo_Festivo,J - Eje Ambiental,7959,9131,9912
+Troncal,2026-11-16,0,Domingo_Festivo,K - Calle 26,35677,41630,44783
+Troncal,2026-11-16,0,Domingo_Festivo,L - Carrera 10,46035,52065,55768
+Troncal,2026-11-16,0,Domingo_Festivo,M - Carrera 7,3060,3533,3836
+Troncal,2026-11-17,1,Habil,A - Caracas,52079,57522,61457
+Troncal,2026-11-17,1,Habil,B - AutoNorte,302103,331765,351822
+Troncal,2026-11-17,1,Habil,C - Suba,127910,141282,149528
+Troncal,2026-11-17,1,Habil,D - Calle 80,118374,130771,138484
+Troncal,2026-11-17,1,Habil,E - NQS Central,102546,114094,121736
+Troncal,2026-11-17,1,Habil,E - NQS Central (Calle 6),10314,11564,12342
+Troncal,2026-11-17,1,Habil,F - Américas,191420,210797,223287
+Troncal,2026-11-17,1,Habil,F - Av. Ciudad de Cali,8378,9624,10370
+Troncal,2026-11-17,1,Habil,G - Extensión Soacha,91350,99752,105320
+Troncal,2026-11-17,1,Habil,G - NQS Sur,132274,145620,154147
+Troncal,2026-11-17,1,Habil,H - Caracas Sur,73043,81333,86687
+Troncal,2026-11-17,1,Habil,H - Caracas Sur (Usme),52509,57288,60399
+Troncal,2026-11-17,1,Habil,H - Ramal Tunal,41988,46045,48571
+Troncal,2026-11-17,1,Habil,J - Eje Ambiental,21028,23608,25353
+Troncal,2026-11-17,1,Habil,K - Calle 26,136514,151409,161237
+Troncal,2026-11-17,1,Habil,L - Carrera 10,123298,136030,144432
+Troncal,2026-11-17,1,Habil,M - Carrera 7,17827,19694,21040
+Troncal,2026-11-18,2,Habil,A - Caracas,51730,57154,61069
+Troncal,2026-11-18,2,Habil,B - AutoNorte,301208,330841,350852
+Troncal,2026-11-18,2,Habil,C - Suba,127637,140995,149232
+Troncal,2026-11-18,2,Habil,D - Calle 80,118121,130508,138206
+Troncal,2026-11-18,2,Habil,E - NQS Central,102550,114104,121748
+Troncal,2026-11-18,2,Habil,E - NQS Central (Calle 6),10316,11566,12344
+Troncal,2026-11-18,2,Habil,F - Américas,191030,210409,222884
+Troncal,2026-11-18,2,Habil,F - Av. Ciudad de Cali,8385,9631,10376
+Troncal,2026-11-18,2,Habil,G - Extensión Soacha,90945,99331,104883
+Troncal,2026-11-18,2,Habil,G - NQS Sur,132071,145406,153927
+Troncal,2026-11-18,2,Habil,H - Caracas Sur,73041,81330,86684
+Troncal,2026-11-18,2,Habil,H - Caracas Sur (Usme),52359,57137,60240
+Troncal,2026-11-18,2,Habil,H - Ramal Tunal,41812,45860,48376
+Troncal,2026-11-18,2,Habil,J - Eje Ambiental,20950,23542,25284
+Troncal,2026-11-18,2,Habil,K - Calle 26,136075,150966,160772
+Troncal,2026-11-18,2,Habil,L - Carrera 10,123019,135744,144127
+Troncal,2026-11-18,2,Habil,M - Carrera 7,17759,19625,20964
+Troncal,2026-11-19,3,Habil,A - Caracas,51805,57245,61135
+Troncal,2026-11-19,3,Habil,B - AutoNorte,301325,331014,350931
+Troncal,2026-11-19,3,Habil,C - Suba,127892,141287,149515
+Troncal,2026-11-19,3,Habil,D - Calle 80,118379,130796,138485
+Troncal,2026-11-19,3,Habil,E - NQS Central,102578,114145,121798
+Troncal,2026-11-19,3,Habil,E - NQS Central (Calle 6),10342,11594,12374
+Troncal,2026-11-19,3,Habil,F - Américas,191267,210692,223137
+Troncal,2026-11-19,3,Habil,F - Av. Ciudad de Cali,8411,9660,10408
+Troncal,2026-11-19,3,Habil,G - Extensión Soacha,91043,99454,104970
+Troncal,2026-11-19,3,Habil,G - NQS Sur,132260,145616,154123
+Troncal,2026-11-19,3,Habil,H - Caracas Sur,73211,81514,86893
+Troncal,2026-11-19,3,Habil,H - Caracas Sur (Usme),52323,57104,60173
+Troncal,2026-11-19,3,Habil,H - Ramal Tunal,41955,46016,48534
+Troncal,2026-11-19,3,Habil,J - Eje Ambiental,20934,23536,25281
+Troncal,2026-11-19,3,Habil,K - Calle 26,136436,151395,161213
+Troncal,2026-11-19,3,Habil,L - Carrera 10,123305,136068,144459
+Troncal,2026-11-19,3,Habil,M - Carrera 7,17697,19562,20891
+Troncal,2026-11-20,4,Habil,A - Caracas,50122,55488,59279
+Troncal,2026-11-20,4,Habil,B - AutoNorte,295366,324832,344643
+Troncal,2026-11-20,4,Habil,C - Suba,127375,140778,149221
+Troncal,2026-11-20,4,Habil,D - Calle 80,117890,130295,138213
+Troncal,2026-11-20,4,Habil,E - NQS Central,101985,113596,121387
+Troncal,2026-11-20,4,Habil,E - NQS Central (Calle 6),10361,11616,12431
+Troncal,2026-11-20,4,Habil,F - Américas,190065,209453,222074
+Troncal,2026-11-20,4,Habil,F - Av. Ciudad de Cali,8476,9728,10502
+Troncal,2026-11-20,4,Habil,G - Extensión Soacha,90070,98438,103944
+Troncal,2026-11-20,4,Habil,G - NQS Sur,132049,145407,154157
+Troncal,2026-11-20,4,Habil,H - Caracas Sur,73311,81631,87191
+Troncal,2026-11-20,4,Habil,H - Caracas Sur (Usme),51930,56687,59761
+Troncal,2026-11-20,4,Habil,H - Ramal Tunal,41850,45906,48460
+Troncal,2026-11-20,4,Habil,J - Eje Ambiental,20749,23361,25110
+Troncal,2026-11-20,4,Habil,K - Calle 26,135901,150903,160900
+Troncal,2026-11-20,4,Habil,L - Carrera 10,122659,135439,143931
+Troncal,2026-11-20,4,Habil,M - Carrera 7,17252,19111,20414
+Troncal,2026-11-21,5,Sabado,A - Caracas,30086,33556,35802
+Troncal,2026-11-21,5,Sabado,B - AutoNorte,165320,182996,194887
+Troncal,2026-11-21,5,Sabado,C - Suba,85247,94914,100897
+Troncal,2026-11-21,5,Sabado,D - Calle 80,82506,91994,97910
+Troncal,2026-11-21,5,Sabado,E - NQS Central,64542,72720,78079
+Troncal,2026-11-21,5,Sabado,E - NQS Central (Calle 6),7897,8919,9595
+Troncal,2026-11-21,5,Sabado,F - Américas,135452,150012,159460
+Troncal,2026-11-21,5,Sabado,F - Av. Ciudad de Cali,6712,7837,8524
+Troncal,2026-11-21,5,Sabado,G - Extensión Soacha,65742,72080,76338
+Troncal,2026-11-21,5,Sabado,G - NQS Sur,102285,113315,120528
+Troncal,2026-11-21,5,Sabado,H - Caracas Sur,53713,60276,64588
+Troncal,2026-11-21,5,Sabado,H - Caracas Sur (Usme),38667,42347,44774
+Troncal,2026-11-21,5,Sabado,H - Ramal Tunal,32425,35737,37824
+Troncal,2026-11-21,5,Sabado,J - Eje Ambiental,13485,15085,16136
+Troncal,2026-11-21,5,Sabado,K - Calle 26,74823,84089,89784
+Troncal,2026-11-21,5,Sabado,L - Carrera 10,93769,103784,110288
+Troncal,2026-11-21,5,Sabado,M - Carrera 7,6661,7461,8021
+Troncal,2026-11-22,6,Domingo_Festivo,A - Caracas,12765,14668,15865
+Troncal,2026-11-22,6,Domingo_Festivo,B - AutoNorte,72134,81308,86953
+Troncal,2026-11-22,6,Domingo_Festivo,C - Suba,40483,46159,49288
+Troncal,2026-11-22,6,Domingo_Festivo,D - Calle 80,40722,46229,49331
+Troncal,2026-11-22,6,Domingo_Festivo,E - NQS Central,28197,32643,35219
+Troncal,2026-11-22,6,Domingo_Festivo,E - NQS Central (Calle 6),3238,3805,4103
+Troncal,2026-11-22,6,Domingo_Festivo,F - Américas,58004,65703,70187
+Troncal,2026-11-22,6,Domingo_Festivo,F - Av. Ciudad de Cali,2900,3567,3860
+Troncal,2026-11-22,6,Domingo_Festivo,G - Extensión Soacha,32713,36291,38643
+Troncal,2026-11-22,6,Domingo_Festivo,G - NQS Sur,51784,58234,62154
+Troncal,2026-11-22,6,Domingo_Festivo,H - Caracas Sur,26336,30258,32485
+Troncal,2026-11-22,6,Domingo_Festivo,H - Caracas Sur (Usme),19377,21479,22872
+Troncal,2026-11-22,6,Domingo_Festivo,H - Ramal Tunal,18153,20229,21490
+Troncal,2026-11-22,6,Domingo_Festivo,J - Eje Ambiental,8447,9650,10469
+Troncal,2026-11-22,6,Domingo_Festivo,K - Calle 26,37740,43787,47193
+Troncal,2026-11-22,6,Domingo_Festivo,L - Carrera 10,47599,53692,57585
+Troncal,2026-11-22,6,Domingo_Festivo,M - Carrera 7,3271,3758,4084
+Troncal,2026-11-23,0,Habil,A - Caracas,51238,56656,60571
+Troncal,2026-11-23,0,Habil,B - AutoNorte,295108,324337,344103
+Troncal,2026-11-23,0,Habil,C - Suba,125262,138454,146578
+Troncal,2026-11-23,0,Habil,D - Calle 80,115785,127997,135593
+Troncal,2026-11-23,0,Habil,E - NQS Central,100062,111456,118986
+Troncal,2026-11-23,0,Habil,E - NQS Central (Calle 6),10050,11280,12051
+Troncal,2026-11-23,0,Habil,F - Américas,186845,205899,218200
+Troncal,2026-11-23,0,Habil,F - Av. Ciudad de Cali,8117,9344,10082
+Troncal,2026-11-23,0,Habil,G - Extensión Soacha,89588,97871,103371
+Troncal,2026-11-23,0,Habil,G - NQS Sur,129630,142787,151195
+Troncal,2026-11-23,0,Habil,H - Caracas Sur,71244,79405,84680
+Troncal,2026-11-23,0,Habil,H - Caracas Sur (Usme),51585,56298,59362
+Troncal,2026-11-23,0,Habil,H - Ramal Tunal,41372,45386,47882
+Troncal,2026-11-23,0,Habil,J - Eje Ambiental,20536,23091,24809
+Troncal,2026-11-23,0,Habil,K - Calle 26,133410,148115,157790
+Troncal,2026-11-23,0,Habil,L - Carrera 10,120889,133471,141760
+Troncal,2026-11-23,0,Habil,M - Carrera 7,17291,19135,20457
+Troncal,2026-11-24,1,Habil,A - Caracas,52079,57522,61457
+Troncal,2026-11-24,1,Habil,B - AutoNorte,302103,331765,351822
+Troncal,2026-11-24,1,Habil,C - Suba,127910,141282,149528
+Troncal,2026-11-24,1,Habil,D - Calle 80,118374,130771,138484
+Troncal,2026-11-24,1,Habil,E - NQS Central,102546,114094,121736
+Troncal,2026-11-24,1,Habil,E - NQS Central (Calle 6),10314,11564,12342
+Troncal,2026-11-24,1,Habil,F - Américas,191420,210797,223287
+Troncal,2026-11-24,1,Habil,F - Av. Ciudad de Cali,8378,9624,10370
+Troncal,2026-11-24,1,Habil,G - Extensión Soacha,91350,99752,105320
+Troncal,2026-11-24,1,Habil,G - NQS Sur,132274,145620,154147
+Troncal,2026-11-24,1,Habil,H - Caracas Sur,73043,81333,86687
+Troncal,2026-11-24,1,Habil,H - Caracas Sur (Usme),52509,57288,60399
+Troncal,2026-11-24,1,Habil,H - Ramal Tunal,41988,46045,48571
+Troncal,2026-11-24,1,Habil,J - Eje Ambiental,21028,23608,25353
+Troncal,2026-11-24,1,Habil,K - Calle 26,136514,151409,161237
+Troncal,2026-11-24,1,Habil,L - Carrera 10,123298,136030,144432
+Troncal,2026-11-24,1,Habil,M - Carrera 7,17827,19694,21040
+Troncal,2026-11-25,2,Habil,A - Caracas,51730,57154,61069
+Troncal,2026-11-25,2,Habil,B - AutoNorte,301208,330841,350852
+Troncal,2026-11-25,2,Habil,C - Suba,127637,140995,149232
+Troncal,2026-11-25,2,Habil,D - Calle 80,118121,130508,138206
+Troncal,2026-11-25,2,Habil,E - NQS Central,102550,114104,121748
+Troncal,2026-11-25,2,Habil,E - NQS Central (Calle 6),10316,11566,12344
+Troncal,2026-11-25,2,Habil,F - Américas,191030,210409,222884
+Troncal,2026-11-25,2,Habil,F - Av. Ciudad de Cali,8385,9631,10376
+Troncal,2026-11-25,2,Habil,G - Extensión Soacha,90945,99331,104883
+Troncal,2026-11-25,2,Habil,G - NQS Sur,132071,145406,153927
+Troncal,2026-11-25,2,Habil,H - Caracas Sur,73041,81330,86684
+Troncal,2026-11-25,2,Habil,H - Caracas Sur (Usme),52359,57137,60240
+Troncal,2026-11-25,2,Habil,H - Ramal Tunal,41812,45860,48376
+Troncal,2026-11-25,2,Habil,J - Eje Ambiental,20950,23542,25284
+Troncal,2026-11-25,2,Habil,K - Calle 26,136075,150966,160772
+Troncal,2026-11-25,2,Habil,L - Carrera 10,123019,135744,144127
+Troncal,2026-11-25,2,Habil,M - Carrera 7,17759,19625,20964
+Troncal,2026-11-26,3,Habil,A - Caracas,51805,57245,61135
+Troncal,2026-11-26,3,Habil,B - AutoNorte,301325,331014,350931
+Troncal,2026-11-26,3,Habil,C - Suba,127892,141287,149515
+Troncal,2026-11-26,3,Habil,D - Calle 80,118379,130796,138485
+Troncal,2026-11-26,3,Habil,E - NQS Central,102578,114145,121798
+Troncal,2026-11-26,3,Habil,E - NQS Central (Calle 6),10342,11594,12374
+Troncal,2026-11-26,3,Habil,F - Américas,191267,210692,223137
+Troncal,2026-11-26,3,Habil,F - Av. Ciudad de Cali,8411,9660,10408
+Troncal,2026-11-26,3,Habil,G - Extensión Soacha,91043,99454,104970
+Troncal,2026-11-26,3,Habil,G - NQS Sur,132260,145616,154123
+Troncal,2026-11-26,3,Habil,H - Caracas Sur,73211,81514,86893
+Troncal,2026-11-26,3,Habil,H - Caracas Sur (Usme),52323,57104,60173
+Troncal,2026-11-26,3,Habil,H - Ramal Tunal,41955,46016,48534
+Troncal,2026-11-26,3,Habil,J - Eje Ambiental,20934,23536,25281
+Troncal,2026-11-26,3,Habil,K - Calle 26,136436,151395,161213
+Troncal,2026-11-26,3,Habil,L - Carrera 10,123305,136068,144459
+Troncal,2026-11-26,3,Habil,M - Carrera 7,17697,19562,20891
+Troncal,2026-11-27,4,Habil,A - Caracas,50122,55488,59279
+Troncal,2026-11-27,4,Habil,B - AutoNorte,295366,324832,344643
+Troncal,2026-11-27,4,Habil,C - Suba,127375,140778,149221
+Troncal,2026-11-27,4,Habil,D - Calle 80,117890,130295,138213
+Troncal,2026-11-27,4,Habil,E - NQS Central,101985,113596,121387
+Troncal,2026-11-27,4,Habil,E - NQS Central (Calle 6),10361,11616,12431
+Troncal,2026-11-27,4,Habil,F - Américas,190065,209453,222074
+Troncal,2026-11-27,4,Habil,F - Av. Ciudad de Cali,8476,9728,10502
+Troncal,2026-11-27,4,Habil,G - Extensión Soacha,90070,98438,103944
+Troncal,2026-11-27,4,Habil,G - NQS Sur,132049,145407,154157
+Troncal,2026-11-27,4,Habil,H - Caracas Sur,73311,81631,87191
+Troncal,2026-11-27,4,Habil,H - Caracas Sur (Usme),51930,56687,59761
+Troncal,2026-11-27,4,Habil,H - Ramal Tunal,41850,45906,48460
+Troncal,2026-11-27,4,Habil,J - Eje Ambiental,20749,23361,25110
+Troncal,2026-11-27,4,Habil,K - Calle 26,135901,150903,160900
+Troncal,2026-11-27,4,Habil,L - Carrera 10,122659,135439,143931
+Troncal,2026-11-27,4,Habil,M - Carrera 7,17252,19111,20414
+Troncal,2026-11-28,5,Sabado,A - Caracas,30086,33556,35802
+Troncal,2026-11-28,5,Sabado,B - AutoNorte,165320,182996,194887
+Troncal,2026-11-28,5,Sabado,C - Suba,85247,94914,100897
+Troncal,2026-11-28,5,Sabado,D - Calle 80,82506,91994,97910
+Troncal,2026-11-28,5,Sabado,E - NQS Central,64542,72720,78079
+Troncal,2026-11-28,5,Sabado,E - NQS Central (Calle 6),7897,8919,9595
+Troncal,2026-11-28,5,Sabado,F - Américas,135452,150012,159460
+Troncal,2026-11-28,5,Sabado,F - Av. Ciudad de Cali,6712,7837,8524
+Troncal,2026-11-28,5,Sabado,G - Extensión Soacha,65742,72080,76338
+Troncal,2026-11-28,5,Sabado,G - NQS Sur,102285,113315,120528
+Troncal,2026-11-28,5,Sabado,H - Caracas Sur,53713,60276,64588
+Troncal,2026-11-28,5,Sabado,H - Caracas Sur (Usme),38667,42347,44774
+Troncal,2026-11-28,5,Sabado,H - Ramal Tunal,32425,35737,37824
+Troncal,2026-11-28,5,Sabado,J - Eje Ambiental,13485,15085,16136
+Troncal,2026-11-28,5,Sabado,K - Calle 26,74823,84089,89784
+Troncal,2026-11-28,5,Sabado,L - Carrera 10,93769,103784,110288
+Troncal,2026-11-28,5,Sabado,M - Carrera 7,6661,7461,8021
+Troncal,2026-11-29,6,Domingo_Festivo,A - Caracas,12765,14668,15865
+Troncal,2026-11-29,6,Domingo_Festivo,B - AutoNorte,72134,81308,86953
+Troncal,2026-11-29,6,Domingo_Festivo,C - Suba,40483,46159,49288
+Troncal,2026-11-29,6,Domingo_Festivo,D - Calle 80,40722,46229,49331
+Troncal,2026-11-29,6,Domingo_Festivo,E - NQS Central,28197,32643,35219
+Troncal,2026-11-29,6,Domingo_Festivo,E - NQS Central (Calle 6),3238,3805,4103
+Troncal,2026-11-29,6,Domingo_Festivo,F - Américas,58004,65703,70187
+Troncal,2026-11-29,6,Domingo_Festivo,F - Av. Ciudad de Cali,2900,3567,3860
+Troncal,2026-11-29,6,Domingo_Festivo,G - Extensión Soacha,32713,36291,38643
+Troncal,2026-11-29,6,Domingo_Festivo,G - NQS Sur,51784,58234,62154
+Troncal,2026-11-29,6,Domingo_Festivo,H - Caracas Sur,26336,30258,32485
+Troncal,2026-11-29,6,Domingo_Festivo,H - Caracas Sur (Usme),19377,21479,22872
+Troncal,2026-11-29,6,Domingo_Festivo,H - Ramal Tunal,18153,20229,21490
+Troncal,2026-11-29,6,Domingo_Festivo,J - Eje Ambiental,8447,9650,10469
+Troncal,2026-11-29,6,Domingo_Festivo,K - Calle 26,37740,43787,47193
+Troncal,2026-11-29,6,Domingo_Festivo,L - Carrera 10,47599,53692,57585
+Troncal,2026-11-29,6,Domingo_Festivo,M - Carrera 7,3271,3758,4084
+Troncal,2026-11-30,0,Habil,A - Caracas,51311,56758,60676
+Troncal,2026-11-30,0,Habil,B - AutoNorte,295441,324757,344542
+Troncal,2026-11-30,0,Habil,C - Suba,125730,138960,147107
+Troncal,2026-11-30,0,Habil,D - Calle 80,116165,128410,136025
+Troncal,2026-11-30,0,Habil,E - NQS Central,100354,111793,119339
+Troncal,2026-11-30,0,Habil,E - NQS Central (Calle 6),10082,11315,12088
+Troncal,2026-11-30,0,Habil,F - Américas,187239,206331,218653
+Troncal,2026-11-30,0,Habil,F - Av. Ciudad de Cali,8131,9359,10098
+Troncal,2026-11-30,0,Habil,G - Extensión Soacha,89610,97897,103401
+Troncal,2026-11-30,0,Habil,G - NQS Sur,129781,142951,151368
+Troncal,2026-11-30,0,Habil,H - Caracas Sur,71408,79585,84867
+Troncal,2026-11-30,0,Habil,H - Caracas Sur (Usme),51585,56299,59365
+Troncal,2026-11-30,0,Habil,H - Ramal Tunal,41463,45485,47985
+Troncal,2026-11-30,0,Habil,J - Eje Ambiental,20562,23120,24840
+Troncal,2026-11-30,0,Habil,K - Calle 26,133736,148487,158178
+Troncal,2026-11-30,0,Habil,L - Carrera 10,121100,133721,142023
+Troncal,2026-11-30,0,Habil,M - Carrera 7,17239,19095,20415

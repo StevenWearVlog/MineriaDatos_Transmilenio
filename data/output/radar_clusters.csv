@@ -1,0 +1,5 @@
+Cluster,Etiqueta_Cluster,n_estaciones,Demanda_Dia_Habil_norm,Demanda_Dia_Habil_real,Concentracion_Pico_AM_norm,Concentracion_Pico_AM_real,Concentracion_Pico_PM_norm,Concentracion_Pico_PM_real,Resiliencia_Fin_Semana_norm,Resiliencia_Fin_Semana_real,Capacidad_Instalada_norm,Capacidad_Instalada_real,Indice_Saturacion_Pico_norm,Indice_Saturacion_Pico_real
+0,C0 - Mega-Portales y Cabeceras de Alta Congestión,10,1.0,52365.68,1.0,51.33,0.0,12.06,1.0,0.36,0.2482,260.1,1.0,49.51
+1,C1 - Estaciones Troncales Fuertes / Nodos Principales,21,0.2009,15958.31,0.0936,22.77,0.9496,36.56,0.0,0.22,1.0,365.9,0.0869,10.99
+2,C2 - Estaciones de Demanda Intermedia,72,0.0166,7561.53,0.0,19.82,1.0,37.86,0.1917,0.25,0.0,225.17,0.0405,9.03
+3,C3 - Estaciones de Baja Demanda / Periféricas,39,0.0,6804.04,0.9488,49.72,0.0473,13.28,0.8655,0.34,0.1907,252.0,0.0,7.32

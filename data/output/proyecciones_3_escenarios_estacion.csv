@@ -1,0 +1,143 @@
+ID_Estacion,Nombre_Estacion,Troncal,Total_Nov_Pesimista,Total_Nov_Base,Total_Nov_Optimista,Max_Hora_Nov_Base,Prom_Diario_Nov_Pesimista,Prom_Diario_Nov_Base,Prom_Diario_Nov_Optimista,Activa_Noviembre_2026,Cluster,Etiqueta_Cluster,longitud,latitud,capacidad_total_est,Indice_Saturacion_Nov_Base
+2000,Portal Norte – Unicervantes,B - AutoNorte,1563110,1704753,1801130,9090,52103.7,56825.1,60037.7,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.046,4.7546,210,43.2857
+5000,Portal Américas,F - Américas,1510834,1645410,1733662,13117,50361.1,54847.0,57788.7,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1731,4.6294,342,38.3538
+7503,San Mateo - CC Unisur,G - Extensión Soacha,1280274,1395268,1473040,11276,42675.8,46508.9,49101.3,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.2054,4.586,424,26.5943
+3000,Portal Suba,C - Suba,1245338,1357457,1432094,11143,41511.3,45248.6,47736.5,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.0943,4.7468,304,36.6546
+7000,Portal Sur - JFK Coop. Financiera,G - NQS Sur,1204686,1312778,1384266,10874,40156.2,43759.3,46142.2,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1693,4.5969,228,47.693
+4000,Portal 80,D - Calle 80,1191736,1301675,1373468,8682,39724.5,43389.2,45782.3,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1105,4.7098,165,52.6182
+9000,Portal Usme,H - Caracas Sur (Usme),1115237,1215960,1282190,10094,37174.6,40532.0,42739.7,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1194,4.5317,210,48.0667
+6000,Portal El Dorado – C.C. Nuestro Bogotá,K - Calle 26,1070929,1170794,1236376,6214,35697.6,39026.5,41212.5,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1214,4.6816,216,28.7685
+10000,Portal 20 de Julio,L - Carrera 10,951871,1039372,1096613,7839,31729.0,34645.7,36553.8,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.097,4.5657,350,22.3971
+8000,Portal Tunal,H - Ramal Tunal,934282,1020579,1076766,7044,31142.7,34019.3,35892.2,True,0,C0 - Mega-Portales y Cabeceras de Alta Congestión,-74.1392,4.5696,152,46.3421
+2300,Calle 100 - Marketmedios,B - AutoNorte,838503,917268,969462,7573,27950.1,30575.6,32315.4,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0577,4.6839,392,19.3189
+5100,Banderas,F - Américas,761494,833084,880866,6572,25383.1,27769.5,29362.2,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.1458,4.6313,608,10.8092
+9122,Calle 72 - Areandina,A - Caracas,706118,778221,829042,4692,23537.3,25940.7,27634.7,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0621,4.6582,264,17.7727
+7504,Terreros - Hospital Cardio Vascular,G - Extensión Soacha,588029,643959,680824,6464,19601.0,21465.3,22694.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1995,4.589,356,18.1573
+2101,Toberin,B - AutoNorte,570268,626176,665163,4365,19008.9,20872.5,22172.1,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0473,4.7462,552,7.9076
+10006,San Victorino,L - Carrera 10,518824,573861,612888,3983,17294.1,19128.7,20429.6,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0774,4.601,384,10.3724
+2200,Alcalá – Colegio S. Tomás Dominicos,B - AutoNorte,485239,534425,568036,2818,16174.6,17814.2,18934.5,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0515,4.7212,392,7.1888
+10002,AV. 1 Mayo,L - Carrera 10,454653,500048,530301,3354,15155.1,16668.3,17676.7,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0937,4.5769,384,8.7344
+2202,Calle 127,B - AutoNorte,406571,448895,477506,2879,13552.4,14963.2,15916.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0542,4.7046,200,14.395
+2304,Héroes - Colmena Seguros,B - AutoNorte,406050,448839,479231,3532,13535.0,14961.3,15974.4,True,2,C2 - Estaciones de Demanda Intermedia,-74.0603,4.6681,264,13.3788
+10009,Museo Nacional,M - Carrera 7,383077,425030,454743,4362,12769.2,14167.7,15158.1,True,2,C2 - Estaciones de Demanda Intermedia,-74.0692,4.6152,240,18.175
+5002,Biblioteca Tintal,F - Américas,368685,406585,430754,3617,12289.5,13552.8,14358.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1594,4.6379,304,11.898
+5105,Pradera - Plaza Central,F - Américas,356166,393024,419507,2194,11872.2,13100.8,13983.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.1187,4.6285,200,10.97
+9001,Molinos,H - Caracas Sur,348818,383638,406963,3189,11627.3,12787.9,13565.4,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1218,4.5571,304,10.4901
+2502,Terminal,B - AutoNorte,311654,345252,368140,2343,10388.5,11508.4,12271.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0436,4.7688,152,15.4145
+10001,Country Sur,L - Carrera 10,305923,337759,358217,2434,10197.4,11258.6,11940.6,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.0986,4.5714,264,9.2197
+2204,Pepe Sierra Universidad UTEL,B - AutoNorte,296071,327955,349430,2860,9869.0,10931.8,11647.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.0553,4.6981,200,14.3
+14005,Las Aguas - Centro Colombo Americano,J - Eje Ambiental,292694,327724,351844,2242,9756.5,10924.1,11728.1,True,2,C2 - Estaciones de Demanda Intermedia,-74.0684,4.6026,120,18.6833
+3002,Suba TV 91 – OMNILIFE SEYTÚ,C - Suba,291625,322009,341742,2290,9720.8,10733.6,11391.4,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.087,4.7389,264,8.6742
+2302,Virrey – Cendiatra,B - AutoNorte,289226,320113,340927,3299,9640.9,10670.4,11364.2,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.059,4.676,352,9.3722
+7107,Universidad Nacional,E - NQS Central,283838,317727,342300,2063,9461.3,10590.9,11410.0,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0793,4.6371,412,5.0073
+6111,Universidades – CityU,K - Calle 26,283617,317123,341155,1822,9453.9,10570.8,11371.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.0673,4.6046,260,7.0077
+2303,Calle 85,B - AutoNorte,283170,314091,334483,2932,9439.0,10469.7,11149.4,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0596,4.6723,320,9.1625
+7103,AV. Chile,E - NQS Central,281813,312877,333571,2724,9393.8,10429.2,11119.0,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0746,4.6664,344,7.9186
+7110,Paloquemao,E - NQS Central,281313,311847,331848,2412,9377.1,10394.9,11061.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0896,4.6169,272,8.8676
+9114,Calle 26 - Atrio,A - Caracas,270046,301493,323781,3008,9001.5,10049.8,10792.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.0722,4.6167,264,11.3939
+10007,Las Nieves,L - Carrera 10,265065,294694,313850,2292,8835.5,9823.1,10461.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.0743,4.6061,264,8.6818
+7505,León XIII,G - Extensión Soacha,264600,292044,309754,2600,8820.0,9734.8,10325.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1931,4.5922,224,11.6071
+6101,El Tiempo – Cámara de Comercio de Bogotá,K - Calle 26,261772,290813,309418,2315,8725.7,9693.8,10313.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.1056,4.6571,240,9.6458
+9104,Restrepo,H - Caracas Sur,256613,285155,304406,998,8553.8,9505.2,10146.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.1014,4.5818,200,4.99
+2205,Calle 106,B - AutoNorte,254796,282422,300654,2631,8493.2,9414.1,10021.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.0562,4.693,248,10.6089
+2103,Mazurén,B - AutoNorte,252977,280875,298566,2154,8432.6,9362.5,9952.2,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0492,4.7346,248,8.6855
+3006,Niza - Calle 127,C - Suba,251651,279034,296187,1714,8388.4,9301.1,9872.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0723,4.712,200,8.57
+7106,Campín - UAN,E - NQS Central,247105,278001,296836,1619,8236.8,9266.7,9894.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0787,4.6454,272,5.9522
+7109,CAD,E - NQS Central,248515,277635,298070,2282,8283.8,9254.5,9935.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.0842,4.6234,272,8.3897
+7010,Bosa,G - NQS Sur,242642,268342,284024,2249,8088.1,8944.7,9467.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1812,4.5969,272,8.2684
+7104,7 de Agosto,E - NQS Central,235391,263320,281767,1722,7846.4,8777.3,9392.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.0777,4.6573,260,6.6231
+7111,Ricaurte - NQS,E - NQS Central,235135,261096,277581,1969,7837.8,8703.2,9252.7,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0939,4.6117,392,5.023
+2105,Calle 142,B - AutoNorte,234969,260746,277060,1492,7832.3,8691.5,9235.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0505,4.7268,180,8.2889
+4102,AV. Boyacá,D - Calle 80,232820,259387,276649,1067,7760.7,8646.2,9221.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0871,4.6939,304,3.5099
+9004,Santa Lucía,H - Caracas Sur,234000,259168,274857,1769,7800.0,8638.9,9161.9,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1247,4.571,272,6.5037
+7112,Comuneros,G - NQS Sur,233086,258749,275068,1156,7769.5,8625.0,9168.9,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.0999,4.6043,252,4.5873
+4100,Granja - Kr 77,D - Calle 80,229380,254308,269859,1618,7646.0,8476.9,8995.3,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.096,4.6992,392,4.1276
+7002,CC Paseo Villa del Río - Madelena,G - NQS Sur,220878,245029,261436,2201,7362.6,8167.6,8714.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1569,4.5963,204,10.7892
+14004,Museo del Oro,J - Eje Ambiental,215672,244616,263442,1751,7189.1,8153.9,8781.4,True,2,C2 - Estaciones de Demanda Intermedia,-74.0729,4.6012,144,12.1597
+7113,Santa Isabel,G - NQS Sur,218917,242924,258618,1301,7297.2,8097.5,8620.6,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1026,4.6017,240,5.4208
+9110,Temporal AV. Jiménez - Inter Eléctricas (A - Caracas),A - Caracas,209731,236341,254366,1403,6991.0,7878.0,8478.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0804,4.6029,288,4.8715
+4104,AV. 68,D - Calle 80,210489,234124,248877,1612,7016.3,7804.1,8295.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0808,4.6861,296,5.4459
+2201,Prado,B - AutoNorte,209724,233259,248132,1307,6990.8,7775.3,8271.1,True,2,C2 - Estaciones de Demanda Intermedia,-74.0526,4.7146,248,5.2702
+7004,Venecia,G - NQS Sur,204039,226648,240699,1400,6801.3,7554.9,8023.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1426,4.5956,204,6.8627
+7007,Cl38A sur - CENTRO MAYOR,G - NQS Sur,199699,223211,238720,883,6656.6,7440.4,7957.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1238,4.5938,212,4.1651
+2001,Calle 187,B - AutoNorte,200145,223015,237672,1335,6671.5,7433.8,7922.4,True,2,C2 - Estaciones de Demanda Intermedia,-74.0444,4.7633,152,8.7829
+7001,Perdomo,G - NQS Sur,194730,216365,230104,1917,6491.0,7212.2,7670.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.165,4.5958,200,9.585
+3012,Suba - Calle 95,C - Suba,189736,214019,229626,1441,6324.5,7134.0,7654.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.0632,4.6847,144,10.0069
+4003,AV. Cali,D - Calle 80,191916,213231,226275,1601,6397.2,7107.7,7542.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1003,4.7025,304,5.2664
+7105,Movistar Arena,E - NQS Central,187430,211941,227010,1417,6247.7,7064.7,7567.0,True,2,C2 - Estaciones de Demanda Intermedia,-74.0784,4.65,272,5.2096
+6102,Salitre - El Greco,K - Calle 26,187663,211110,226026,1024,6255.4,7037.0,7534.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.1016,4.6509,260,3.9385
+6103,CAN,K - Calle 26,184379,207096,221449,1744,6146.0,6903.2,7381.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.099,4.6469,260,6.7077
+5107,Distrito Grafiti,F - Américas,178232,199016,212877,1731,5941.1,6633.9,7095.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.1116,4.6278,272,6.364
+9100,Calle 40 Sur,H - Caracas Sur,176415,197098,210842,1747,5880.5,6569.9,7028.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1201,4.5758,392,4.4566
+9103,Olaya,H - Caracas Sur,176354,196770,210112,830,5878.5,6559.0,7003.7,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1074,4.5789,296,2.8041
+4108,Polo - FINCOMERCIO,D - Calle 80,175752,196734,210768,2007,5858.4,6557.8,7025.6,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0643,4.6702,360,5.575
+3001,La Campiña,C - Suba,175957,195926,207840,1859,5865.2,6530.9,6928.0,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.0912,4.7427,352,5.2812
+6100,Avenida Rojas - UNISALESIANA,K - Calle 26,174406,195170,208221,1414,5813.5,6505.7,6940.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.1088,4.6619,320,4.4188
+6106,Corferias,K - Calle 26,168846,195045,212119,981,5628.2,6501.5,7070.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0897,4.6343,252,3.8929
+7005,Alquería,G - NQS Sur,174964,194968,207429,785,5832.1,6498.9,6914.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.1343,4.5943,204,3.848
+3009,Suba - Calle 116,C - Suba,173483,193591,205604,1478,5782.8,6453.0,6853.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0698,4.6992,200,7.39
+6002,Normandía,K - Calle 26,172574,192948,206215,1026,5752.5,6431.6,6873.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.1133,4.669,260,3.9462
+7006,General Santander,G - NQS Sur,171864,191637,203443,1455,5728.8,6387.9,6781.4,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1295,4.5936,404,3.6015
+9005,Danubio,H - Caracas Sur (Usme),165516,184770,196542,1479,5517.2,6159.0,6551.4,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1209,4.5437,304,4.8651
+5005,Transversal 86,F - Américas,155715,173779,184659,1895,5190.5,5792.6,6155.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1521,4.6342,240,7.8958
+3005,Suba - AV. Boyacá,C - Suba,154559,173143,184238,1010,5152.0,5771.4,6141.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0747,4.7213,144,7.0139
+14001,De La Sabana,F - Américas,153937,172656,183933,1038,5131.2,5755.2,6131.1,True,2,C2 - Estaciones de Demanda Intermedia,-74.0819,4.6054,168,6.1786
+2104,Calle 146,B - AutoNorte,153872,172140,182998,1106,5129.1,5738.0,6099.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0498,4.7309,248,4.4597
+4101,Minuto de Dios,D - Calle 80,152905,171239,182599,707,5096.8,5708.0,6086.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0919,4.6969,296,2.3885
+7200,Tygua - San José,E - NQS Central (Calle 6),151648,170437,182849,1063,5054.9,5681.2,6095.0,True,2,C2 - Estaciones de Demanda Intermedia,-74.0888,4.5998,228,4.6623
+3011,Suba - Calle 100,C - Suba,152045,170185,180824,1406,5068.2,5672.8,6027.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0644,4.687,304,4.625
+6001,Modelia,K - Calle 26,150363,168833,180786,1051,5012.1,5627.8,6026.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.1171,4.675,260,4.0423
+7102,Calle 75 - Zona M,E - NQS Central,148356,166492,177839,1528,4945.2,5549.7,5928.0,True,2,C2 - Estaciones de Demanda Intermedia,-74.0713,4.6702,272,5.6176
+3010,Puentelargo,C - Suba,147782,165627,175951,1385,4926.1,5520.9,5865.0,True,2,C2 - Estaciones de Demanda Intermedia,-74.0672,4.6934,200,6.925
+6107,Ciudad Universitaria,K - Calle 26,144769,164963,178938,811,4825.6,5498.8,5964.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0835,4.6309,260,3.1192
+5001,Patio Bonito,F - Américas,145461,163975,176320,1732,4848.7,5465.8,5877.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1646,4.6332,304,5.6974
+9107,Hortúa,H - Caracas Sur,142701,161930,175485,801,4756.7,5397.7,5849.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0902,4.5908,192,4.1719
+5103,Marsella,F - Américas,143489,160691,171308,922,4783.0,5356.4,5710.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1302,4.6297,320,2.8812
+10008,San Diego,L - Carrera 10,141062,160393,173950,1355,4702.1,5346.4,5798.3,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0715,4.6109,288,4.7049
+4002,Carrera 90,D - Calle 80,141358,158174,168039,1039,4711.9,5272.5,5601.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1046,4.7047,304,3.4178
+10010,San Bernardo,L - Carrera 10,135948,152824,162885,711,4531.6,5094.1,5429.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0843,4.5902,264,2.6932
+5102,AV. Américas - AV. Boyacá,F - Américas,131228,147480,157091,755,4374.3,4916.0,5236.4,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1342,4.6301,272,2.7757
+9105,Fucha,H - Caracas Sur,130649,147233,157977,614,4355.0,4907.8,5265.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0994,4.583,144,4.2639
+12004,San Facon Carrera 22,F - Américas,129793,146057,155680,960,4326.4,4868.6,5189.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0868,4.6097,272,3.5294
+7101,La Castellana,E - NQS Central,127584,143603,153306,1486,4252.8,4786.8,5110.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.0644,4.6756,232,6.4052
+12007,Zona Industrial,F - Américas,123727,139521,149092,1029,4124.2,4650.7,4969.7,True,2,C2 - Estaciones de Demanda Intermedia,-74.0987,4.6203,168,6.125
+12003,Ricaurte - CL 13,F - Américas,115743,130504,139013,1333,3858.1,4350.1,4633.8,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0905,4.613,312,4.2724
+7108,AV. ElDorado,E - NQS Central,114216,129087,137959,1214,3807.2,4302.9,4598.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0799,4.6307,260,4.6692
+7008,NQS - Calle 30 S,G - NQS Sur,113917,128493,136750,598,3797.2,4283.1,4558.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1179,4.5948,232,2.5776
+6109,Centro Memoria,K - Calle 26,111173,125803,134206,960,3705.8,4193.4,4473.5,True,2,C2 - Estaciones de Demanda Intermedia,-74.0763,4.6205,260,3.6923
+10005,Bicentenario,L - Carrera 10,108548,123937,133502,984,3618.3,4131.2,4450.1,True,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0818,4.594,384,2.5625
+6104,Gobernación,K - Calle 26,109256,123840,132086,1419,3641.9,4128.0,4402.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0965,4.6428,260,5.4577
+3013,Rionegro,C - Suba,100916,114537,121975,973,3363.9,3817.9,4065.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.0648,4.6804,144,6.7569
+7201,Guatoque - Veraguas,E - NQS Central (Calle 6),97498,110451,117671,803,3249.9,3681.7,3922.4,True,2,C2 - Estaciones de Demanda Intermedia,-74.0949,4.6042,240,3.3458
+9101,Quiroga,H - Caracas Sur,95773,109054,117646,674,3192.4,3635.1,3921.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1144,4.5768,144,4.6806
+9106,Nariño,H - Caracas Sur,94014,106773,113608,516,3133.8,3559.1,3786.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0939,4.5863,144,3.5833
+5010,Los Laureles,F - Av. Ciudad de Cali,92848,106369,115207,783,3094.9,3545.6,3840.2,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.2023,4.6111,304,2.5757
+12001,Carrera 43 - Comapan,F - Américas,92434,105033,111966,807,3081.1,3501.1,3732.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.1014,4.6228,168,4.8036
+7003,Sevillana,G - NQS Sur,91286,103659,110372,600,3042.9,3455.3,3679.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1474,4.5951,204,2.9412
+2102,Calle 161,B - AutoNorte,89622,101865,108288,547,2987.4,3395.5,3609.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.048,4.7419,216,2.5324
+4001,Quirigua,D - Calle 80,86956,98816,105189,762,2898.5,3293.9,3506.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1087,4.7067,152,5.0132
+10004,Policarpa,L - Carrera 10,83622,96391,104087,380,2787.4,3213.0,3469.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.087,4.5861,264,1.4394
+12002,CDS - Carrera 32,F - Américas,80521,92012,98612,786,2684.0,3067.1,3287.1,True,2,C2 - Estaciones de Demanda Intermedia,-74.094,4.6161,168,4.6786
+7506,La Despensa,G - Extensión Soacha,79950,91122,97180,769,2665.0,3037.4,3239.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1881,4.5946,224,3.433
+4105,Carrera 53,D - Calle 80,78768,89893,95679,520,2625.6,2996.4,3189.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0774,4.6818,152,3.4211
+9002,Consuelo,H - Caracas Sur,73628,84363,90173,727,2454.3,2812.1,3005.8,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1239,4.5602,192,3.7865
+10003,Ciudad Jardín - UAN,L - Carrera 10,71610,82237,87660,518,2387.0,2741.2,2922.0,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.0904,4.5815,264,1.9621
+6105,Quinta Paredes -RTVC,K - Calle 26,69957,80210,85733,518,2331.9,2673.7,2857.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.0931,4.6375,260,1.9923
+12000,Puente Aranda,F - Américas,66913,77086,82809,835,2230.4,2569.5,2760.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.1046,4.6257,168,4.9702
+4103,Ferias,D - Calle 80,66807,76729,81668,423,2226.9,2557.6,2722.3,True,2,C2 - Estaciones de Demanda Intermedia,-74.0846,4.6909,152,2.7829
+4106,Carrera 47,D - Calle 80,64352,74150,79027,368,2145.1,2471.7,2634.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.0733,4.6778,304,1.2105
+8002,Biblioteca,H - Ramal Tunal,60024,69385,73981,343,2000.8,2312.8,2466.0,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1304,4.5703,60,5.7167
+3003,21 Ángeles,C - Suba,60028,69379,73811,514,2000.9,2312.6,2460.4,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.081,4.7355,144,3.5694
+5009,Islandia,F - Av. Ciudad de Cali,57750,67608,72827,533,1925.0,2253.6,2427.6,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1937,4.6143,304,1.7533
+8001,Parque,H - Ramal Tunal,56631,65743,69994,425,1887.7,2191.4,2333.1,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1354,4.5683,60,7.0833
+5011,Tibanica - Primavera,F - Av. Ciudad de Cali,55181,64601,69549,581,1839.4,2153.4,2318.3,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.2061,4.6067,304,1.9112
+9003,Socorro,H - Caracas Sur,51361,59945,63885,590,1712.0,1998.2,2129.5,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1256,4.5647,200,2.95
+6108,Concejo de Bogotá,K - Calle 26,50093,58412,62393,380,1669.8,1947.1,2079.8,True,2,C2 - Estaciones de Demanda Intermedia,-74.0803,4.626,260,1.4615
+3007,Humedal Córdoba,C - Suba,46780,54829,58398,287,1559.3,1827.6,1946.6,True,2,C2 - Estaciones de Demanda Intermedia,-74.0712,4.7067,156,1.8397
+5101,Mandalay,F - Américas,44781,52646,56039,405,1492.7,1754.9,1868.0,True,3,C3 - Estaciones de Baja Demanda / Periféricas,-74.1413,4.6309,240,1.6875
+3014,San Martín,C - Suba,30241,36770,39037,296,1008.0,1225.7,1301.2,True,2,C2 - Estaciones de Demanda Intermedia,-74.0672,4.6764,192,1.5417
+4107,Escuela Militar,D - Calle 80,27556,33797,35953,236,918.5,1126.6,1198.4,True,2,C2 - Estaciones de Demanda Intermedia,-74.0698,4.6755,272,0.8676
+3004,Gratamira,C - Suba,20947,26595,28196,106,698.2,886.5,939.9,True,2,C2 - Estaciones de Demanda Intermedia,-74.0747,4.7275,144,0.7361
+9121,Temporal Flores – Areandina,A - Caracas,0,0,0,0,0.0,0.0,0.0,False,2,C2 - Estaciones de Demanda Intermedia,-74.063,4.6549,192,0.0
+9123,Calle 76 - San Felipe,A - Caracas,0,0,0,0,0.0,0.0,0.0,False,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0613,4.663,320,0.0
+9117,Calle 45 - American School Way,A - Caracas,0,0,0,0,0.0,0.0,0.0,False,1,C1 - Estaciones Troncales Fuertes / Nodos Principales,-74.0679,4.6315,320,0.0

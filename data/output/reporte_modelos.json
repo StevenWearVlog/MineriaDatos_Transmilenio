@@ -1,0 +1,332 @@
+{
+  "proyecto": "Minería de Datos - TransMilenio S.A. (2026)",
+  "fase": "Fase 3 - Modelos ML, Clustering y Proyecciones a 3 Escenarios",
+  "random_state": 42,
+  "tiempo_ejecucion_segundos": 43.25,
+  "clustering_estaciones": {
+    "k_evaluados": [
+      {
+        "k": 2,
+        "inercia": 1826.8721,
+        "silhouette_score": 0.4718,
+        "calinski_harabasz": 44.9938,
+        "davies_bouldin": 0.9352,
+        "es_k_optimo": false
+      },
+      {
+        "k": 3,
+        "inercia": 1506.4438,
+        "silhouette_score": 0.215,
+        "calinski_harabasz": 41.8702,
+        "davies_bouldin": 1.5411,
+        "es_k_optimo": false
+      },
+      {
+        "k": 4,
+        "inercia": 1290.5228,
+        "silhouette_score": 0.2252,
+        "calinski_harabasz": 40.0457,
+        "davies_bouldin": 1.4131,
+        "es_k_optimo": true
+      },
+      {
+        "k": 5,
+        "inercia": 1164.299,
+        "silhouette_score": 0.1796,
+        "calinski_harabasz": 36.7623,
+        "davies_bouldin": 1.4403,
+        "es_k_optimo": false
+      },
+      {
+        "k": 6,
+        "inercia": 1065.7007,
+        "silhouette_score": 0.1824,
+        "calinski_harabasz": 34.4128,
+        "davies_bouldin": 1.4415,
+        "es_k_optimo": false
+      },
+      {
+        "k": 7,
+        "inercia": 1008.053,
+        "silhouette_score": 0.1935,
+        "calinski_harabasz": 31.3811,
+        "davies_bouldin": 1.3016,
+        "es_k_optimo": false
+      },
+      {
+        "k": 8,
+        "inercia": 941.7129,
+        "silhouette_score": 0.1925,
+        "calinski_harabasz": 29.9282,
+        "davies_bouldin": 1.3957,
+        "es_k_optimo": false
+      }
+    ],
+    "k_optimo_seleccionado": 4,
+    "silhouette_k_optimo": 0.2252,
+    "inercia_k_optimo": 1290.5228,
+    "davies_bouldin_k_optimo": 1.4131,
+    "justificacion_seleccion": "k=2 genera una partición binaria trivial (11 Mega-Portales vs 131 estaciones heterogéneas). Dentro del rango operativo multi-segmento (k=3..8), k=4 alcanza el máximo local de Silhouette (0.2252), reduce Davies-Bouldin a 1.4131 y coincide con el punto de inflexión de la curva de Inercia.",
+    "pca_varianza_explicada_2d_pct": [
+      30.99,
+      18.45
+    ],
+    "perfiles_segmentos": [
+      {
+        "Cluster": 0,
+        "Etiqueta_Cluster": "C0 - Mega-Portales y Cabeceras de Alta Congestión",
+        "n_estaciones": 10,
+        "prom_diario_habil": 52365.68,
+        "max_hora_promedio": 11911.6,
+        "capacidad_promedio": 260.1,
+        "saturacion_promedio": 49.51
+      },
+      {
+        "Cluster": 1,
+        "Etiqueta_Cluster": "C1 - Estaciones Troncales Fuertes / Nodos Principales",
+        "n_estaciones": 21,
+        "prom_diario_habil": 15958.31,
+        "max_hora_promedio": 3975.57,
+        "capacidad_promedio": 365.9,
+        "saturacion_promedio": 10.99
+      },
+      {
+        "Cluster": 2,
+        "Etiqueta_Cluster": "C2 - Estaciones de Demanda Intermedia",
+        "n_estaciones": 72,
+        "prom_diario_habil": 7561.53,
+        "max_hora_promedio": 1972.97,
+        "capacidad_promedio": 225.17,
+        "saturacion_promedio": 9.03
+      },
+      {
+        "Cluster": 3,
+        "Etiqueta_Cluster": "C3 - Estaciones de Baja Demanda / Periféricas",
+        "n_estaciones": 39,
+        "prom_diario_habil": 6804.04,
+        "max_hora_promedio": 1825.1,
+        "capacidad_promedio": 252.0,
+        "saturacion_promedio": 7.32
+      }
+    ]
+  },
+  "validacion_predictiva_sep_oct_2026": {
+    "particion": {
+      "train_rango": "2026-01-01 a 2026-08-31",
+      "train_filas_totales": 618494,
+      "train_filas_supervisadas_meses_2_a_8": 533585,
+      "test_rango": "2026-09-01 a 2026-10-31",
+      "test_filas": 169457,
+      "best_n_estimators_xgb": 77
+    },
+    "metricas_hora_estacion": {
+      "Baseline_Promedio_Historico": {
+        "MAE": 80.6907,
+        "RMSE": 185.624,
+        "R2": 0.966,
+        "WAPE_pct": 15.19,
+        "MAPE_ge10_pct": 34.49
+      },
+      "Baseline_Ridge_Lineal": {
+        "MAE": 94.6245,
+        "RMSE": 193.8609,
+        "R2": 0.9629,
+        "WAPE_pct": 17.81,
+        "MAPE_ge10_pct": 57.8
+      },
+      "XGBoost_Regressor": {
+        "MAE": 68.9807,
+        "RMSE": 167.3368,
+        "R2": 0.9724,
+        "WAPE_pct": 12.99,
+        "MAPE_ge10_pct": 29.8
+      }
+    },
+    "metricas_diario_sistema": {
+      "Baseline_Promedio_Historico": {
+        "MAE": 98164.2892,
+        "RMSE": 108235.777,
+        "R2": 0.9405,
+        "WAPE_pct": 6.65,
+        "MAPE_ge10_pct": 6.87
+      },
+      "Baseline_Ridge_Lineal": {
+        "MAE": 43140.7251,
+        "RMSE": 63850.4818,
+        "R2": 0.9793,
+        "WAPE_pct": 2.92,
+        "MAPE_ge10_pct": 3.32
+      },
+      "XGBoost_Regressor": {
+        "MAE": 38074.167,
+        "RMSE": 57217.7023,
+        "R2": 0.9834,
+        "WAPE_pct": 2.58,
+        "MAPE_ge10_pct": 2.76
+      }
+    },
+    "top_10_variables": [
+      {
+        "ranking": 1,
+        "variable": "prom_hist_est_hora_tipodia",
+        "importancia_pct": 81.97000122070312,
+        "importancia_gain_norm": 0.8197299838066101
+      },
+      {
+        "ranking": 2,
+        "variable": "prom_rec28d_est_hora_tipodia",
+        "importancia_pct": 7.960000038146973,
+        "importancia_gain_norm": 0.07960300147533417
+      },
+      {
+        "ranking": 3,
+        "variable": "saturacion_reciente_hora",
+        "importancia_pct": 1.9800000190734863,
+        "importancia_gain_norm": 0.019835999235510826
+      },
+      {
+        "ranking": 4,
+        "variable": "cap_biart",
+        "importancia_pct": 1.0499999523162842,
+        "importancia_gain_norm": 0.010518999770283699
+      },
+      {
+        "ranking": 5,
+        "variable": "prom_rec28d_est_tipodia",
+        "importancia_pct": 0.9100000262260437,
+        "importancia_gain_norm": 0.009053999558091164
+      },
+      {
+        "ranking": 6,
+        "variable": "es_habil",
+        "importancia_pct": 0.7400000095367432,
+        "importancia_gain_norm": 0.007400999777019024
+      },
+      {
+        "ranking": 7,
+        "variable": "Mes",
+        "importancia_pct": 0.6100000143051147,
+        "importancia_gain_norm": 0.006144000217318535
+      },
+      {
+        "ranking": 8,
+        "variable": "capacidad_total_est",
+        "importancia_pct": 0.5299999713897705,
+        "importancia_gain_norm": 0.005274999886751175
+      },
+      {
+        "ranking": 9,
+        "variable": "es_pico_am",
+        "importancia_pct": 0.49000000953674316,
+        "importancia_gain_norm": 0.004945999942719936
+      },
+      {
+        "ranking": 10,
+        "variable": "longitud",
+        "importancia_pct": 0.36000001430511475,
+        "importancia_gain_norm": 0.0036239998880773783
+      }
+    ]
+  },
+  "proyeccion_noviembre_2026_3_escenarios": {
+    "rango": "2026-11-01 a 2026-11-30 (30 días)",
+    "festivos_colombia_incluidos": [
+      "2026-11-02",
+      "2026-11-16"
+    ],
+    "composicion_dias_noviembre": {
+      "Habil": 19,
+      "Domingo_Festivo": 7,
+      "Sabado": 4
+    },
+    "estaciones_activas_proyectadas": 139,
+    "estaciones_cerradas_obra_metro": 3,
+    "coherencia_optimista_ge_base_ge_pesimista": true,
+    "totales_mensuales_validaciones": {
+      "Escenario_Pesimista": 37992460,
+      "Escenario_Base": 42068964,
+      "Escenario_Optimista": 44700272,
+      "variacion_pesimista_vs_base_pct": -9.69,
+      "variacion_optimista_vs_base_pct": 6.25
+    },
+    "promedios_diarios_sistema": {
+      "Escenario_Pesimista": 1266415,
+      "Escenario_Base": 1402299,
+      "Escenario_Optimista": 1490009
+    }
+  },
+  "auditoria_archivos_output": {
+    "cumple_cero_nulos_en_todos_los_csv": true,
+    "archivos": {
+      "backtest_validacion.csv": {
+        "size_kb": 19.25,
+        "dimensiones": {
+          "filas": 244,
+          "columnas": 10
+        },
+        "nulos": 0
+      },
+      "clusters_estaciones.csv": {
+        "size_kb": 29.87,
+        "dimensiones": {
+          "filas": 142,
+          "columnas": 25
+        },
+        "nulos": 0
+      },
+      "curva_codo_silhouette.csv": {
+        "size_kb": 0.35,
+        "dimensiones": {
+          "filas": 7,
+          "columnas": 6
+        },
+        "nulos": 0
+      },
+      "feature_importance.csv": {
+        "size_kb": 1.04,
+        "dimensiones": {
+          "filas": 33,
+          "columnas": 4
+        },
+        "nulos": 0
+      },
+      "kpis_escenarios.csv": {
+        "size_kb": 3.85,
+        "dimensiones": {
+          "filas": 20,
+          "columnas": 7
+        },
+        "nulos": 0
+      },
+      "kpis_escenarios.json": {
+        "size_kb": 4.9,
+        "dimensiones": null,
+        "nulos": 0
+      },
+      "proyecciones_3_escenarios_diarias.csv": {
+        "size_kb": 35.0,
+        "dimensiones": {
+          "filas": 540,
+          "columnas": 8
+        },
+        "nulos": 0
+      },
+      "proyecciones_3_escenarios_estacion.csv": {
+        "size_kb": 22.48,
+        "dimensiones": {
+          "filas": 142,
+          "columnas": 17
+        },
+        "nulos": 0
+      },
+      "radar_clusters.csv": {
+        "size_kb": 0.83,
+        "dimensiones": {
+          "filas": 4,
+          "columnas": 15
+        },
+        "nulos": 0
+      }
+    }
+  }
+}

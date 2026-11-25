@@ -1,0 +1,129 @@
+{
+  "nota_metodologica": "KPI_1 se calcula 100% a partir de los registros transaccionales limpios de Datos Abiertos (vista_minable, 400.84M validaciones en Ene-Oct 2026) y las proyecciones ML de Noviembre 2026. KPI_2 a KPI_5 corresponden a indicadores operativos oficiales de gestión de TransMilenio S.A., parametrizados sobre su línea base pública y sensibilizados físicamente por escenario.",
+  "participacion_observada_franjas": {
+    "peso_horas_pico_pct": 60.83,
+    "peso_horas_valle_pct": 39.17
+  },
+  "escenarios": {
+    "Linea_Base_Historica_2026": {
+      "KPI_1_Demanda_Validada_Troncal": {
+        "fuente": "Observado_Datos_Abiertos",
+        "total_mensual_30d": 39556257,
+        "promedio_diario_global": 1318542,
+        "promedio_dia_habil": 1614991,
+        "promedio_sabado": 1041270,
+        "promedio_domingo_festivo": 476802
+      },
+      "KPI_2_Indice_Cumplimiento_Programacion_ICP_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 96.4
+      },
+      "KPI_3_Tiempo_Medio_Espera_Troncal_min": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "hora_pico_min": 3.5,
+        "hora_valle_min": 7.2,
+        "ponderado_sistema_min": 4.95
+      },
+      "KPI_4_Tasa_Evasion_Focalizada_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 15.32,
+        "referencia_historica_critica_pct": 28.51
+      },
+      "KPI_5_Kilometros_Comerciales_Troncal_millones_mes": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "millones_km_mes": 11.3,
+        "km_exactos_mes": 11300000
+      }
+    },
+    "Escenario_Pesimista_Nov2026": {
+      "KPI_1_Demanda_Validada_Troncal": {
+        "fuente": "Observado_Datos_Abiertos_Proyectado_ML",
+        "total_mensual_30d": 37992460,
+        "promedio_diario_global": 1266415,
+        "promedio_dia_habil": 1593111,
+        "promedio_sabado": 1059330,
+        "promedio_domingo_festivo": 498005
+      },
+      "KPI_2_Indice_Cumplimiento_Programacion_ICP_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 93.5
+      },
+      "KPI_3_Tiempo_Medio_Espera_Troncal_min": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "hora_pico_min": 4.19,
+        "hora_valle_min": 8.11,
+        "ponderado_sistema_min": 5.73
+      },
+      "KPI_4_Tasa_Evasion_Focalizada_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 19.0,
+        "referencia_historica_critica_pct": 28.51
+      },
+      "KPI_5_Kilometros_Comerciales_Troncal_millones_mes": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "millones_km_mes": 10.96,
+        "km_exactos_mes": 10960000
+      }
+    },
+    "Escenario_Base_Nov2026": {
+      "KPI_1_Demanda_Validada_Troncal": {
+        "fuente": "Observado_Datos_Abiertos_Proyectado_ML",
+        "total_mensual_30d": 42068964,
+        "promedio_diario_global": 1402299,
+        "promedio_dia_habil": 1758060,
+        "promedio_sabado": 1177124,
+        "promedio_domingo_festivo": 565332
+      },
+      "KPI_2_Indice_Cumplimiento_Programacion_ICP_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 96.4
+      },
+      "KPI_3_Tiempo_Medio_Espera_Troncal_min": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "hora_pico_min": 3.52,
+        "hora_valle_min": 7.2,
+        "ponderado_sistema_min": 4.96
+      },
+      "KPI_4_Tasa_Evasion_Focalizada_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 15.32,
+        "referencia_historica_critica_pct": 28.51
+      },
+      "KPI_5_Kilometros_Comerciales_Troncal_millones_mes": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "millones_km_mes": 11.3,
+        "km_exactos_mes": 11300000
+      }
+    },
+    "Escenario_Optimista_Nov2026": {
+      "KPI_1_Demanda_Validada_Troncal": {
+        "fuente": "Observado_Datos_Abiertos_Proyectado_ML",
+        "total_mensual_30d": 44700272,
+        "promedio_diario_global": 1490009,
+        "promedio_dia_habil": 1865916,
+        "promedio_sabado": 1253435,
+        "promedio_domingo_festivo": 604877
+      },
+      "KPI_2_Indice_Cumplimiento_Programacion_ICP_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 97.8
+      },
+      "KPI_3_Tiempo_Medio_Espera_Troncal_min": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "hora_pico_min": 3.26,
+        "hora_valle_min": 6.76,
+        "ponderado_sistema_min": 4.63
+      },
+      "KPI_4_Tasa_Evasion_Focalizada_pct": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "valor_pct": 12.5,
+        "referencia_historica_critica_pct": 28.51
+      },
+      "KPI_5_Kilometros_Comerciales_Troncal_millones_mes": {
+        "fuente": "Parametrico_Oficial_Sensibilizado",
+        "millones_km_mes": 11.464,
+        "km_exactos_mes": 11464000
+      }
+    }
+  }
+}
